@@ -1142,38 +1142,28 @@ li:hover{
 }
 
 /* partie  about */
-.container{
-    padding: 1rem;
-    height: 950px;
+
+.container-grid{
+    grid-template-columns: 1fr;
 }
 
 .container h3{
-    font-size: 30px;
-    margin-top: 3rem;
+    font-size: 26px;
 }
 
-
-.container-grid{
-    flex-direction: column;
-    align-items: center;
-    margin: 0 0;
-    gap: 1.5rem;
+.container .container-grid p{
+    font-size: 14px;
 }
 
-
-.card{
-    width: 80%;
-     min-height: 400px;
-}
-.card1{
-    width: 80%;
-     min-height: 250px;
+.btn-pictures{
+    width: 140px;
+    height: 38px;
 }
 
 /* partie resume */
 
 .container .container-grid p{
-    width: 280px;
+    width: auto;
     text-align: left;
 }
 
@@ -1751,11 +1741,10 @@ font-size:16px;
 
     /* partie resumé */
 
-    .Competences{
-    font-size:30px;
-    padding:3rem 0;
-    margin:0;
-}
+.Competences{
+        font-size: 28px;
+        padding: 1.5rem 1rem;
+    }
 
 /* container principal */
 .comp-container{
