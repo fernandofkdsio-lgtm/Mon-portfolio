@@ -1076,7 +1076,7 @@ color:rgb(77, 171, 253);
     .principal .principal-text .text1{
         text-align: center;
         margin: 0 auto;
-        width: 350px;
+        width: 300px;
         margin-top: 2rem;
     }
     .btn .cv{
@@ -1756,6 +1756,7 @@ font-size:16px;
     font-size:30px;
     padding:3rem 0;
     margin:0;
+    text-align: center;
 }
 
 /* container principal */
