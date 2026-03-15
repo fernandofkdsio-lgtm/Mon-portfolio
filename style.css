@@ -1053,6 +1053,154 @@ color:rgb(77, 171, 253);
     opacity: 0.8;
 }
 
+
+@media screen and (max-width:480px){
+
+/* HEADER */
+
+header{
+padding:0 1rem;
+}
+
+/* HERO */
+
+.principal .principal-text .name{
+font-size:28px;
+margin-top:6rem;
+}
+
+.principal .principal-text .text1{
+width:100%;
+font-size:14px;
+}
+
+.btn .cv,
+.btn .Call{
+width:70%;
+margin:0.5rem auto;
+display:block;
+}
+
+/* MENU */
+
+.links{
+width:95%;
+padding:10rem 1.5rem;
+}
+
+/* ABOUT */
+
+.container{
+height:auto;
+padding:1rem;
+}
+
+.container h3{
+font-size:24px;
+}
+
+.card{
+min-height:auto;
+padding:1.5rem;
+}
+
+.container .container-grid h5{
+    font-size:20px;
+    text-align:center;
+    margin:1.5rem auto 0 auto;
+}
+
+.container .container-grid p{
+    width:95%;
+    font-size:14px;
+    margin:1rem auto;
+    text-align:left;
+}
+
+
+/* RESUME */
+.Competences{
+    font-size:26px;
+    padding:2rem 1rem;
+    margin:1rem 0;
+}
+
+/* container */
+
+.comp-container{
+    grid-template-columns:1fr;
+    grid-template-rows:auto;
+    height:auto;
+}
+
+/* blocs passent en colonne */
+
+.bloc-comp{
+    grid-column:auto;
+    grid-row:auto;
+}
+
+.bloc-comp1{
+    grid-column:auto;
+    grid-row:auto;
+}
+
+/* titres */
+
+.bloc-comp .Formations{
+    font-size:20px;
+    margin:0 auto;
+    text-align:center;
+}
+
+.bloc-comp1 .Experience{
+    font-size:20px;
+    margin:1rem auto;
+    text-align:center;
+}
+
+/* cards */
+
+.comp-container .bloc-comp article{
+    width:90%;
+    height:auto;
+    margin:1rem auto;
+}
+
+.comp-container .bloc-comp1 .article1{
+    width:90%;
+    height:auto;
+    margin:1rem auto;
+}
+
+/* textes */
+
+.date,
+.fa-regular{
+    margin:1.5rem 0 0 1rem;
+    font-size:13px;
+}
+
+.texte-title{
+    font-size:16px;
+    margin:1rem 0 0 1.5rem;
+}
+
+.texte-description{
+    width:85%;
+    font-size:13px;
+    margin:0.8rem 0 0 1.5rem;
+    line-height:1.4;
+}
+
+.texte-title span{
+    font-size:13px;
+}
+
+}
+
+
+
 /* responsive mobile */
 @media screen and (max-width:768px){
 
