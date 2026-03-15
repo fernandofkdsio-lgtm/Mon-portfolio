@@ -1025,10 +1025,17 @@ color:rgb(77, 171, 253);
     box-shadow:0 0 15px #000e37,
     0 0 15px #8899cc;
     outline: 1px solid rgb(77, 171, 253);
+    cursor: pointer;
+    display: block;
 }
 
 .info-box h4{
     margin-bottom:10px;
+}
+.info-box a {
+    display: block;
+    color: white;
+    text-decoration: none;
 }
 
 /* partie footer */
@@ -1121,8 +1128,8 @@ padding:1.5rem;
 /* RESUME */
 .Competences{
     font-size:26px;
-    padding:2rem 1rem;
-    margin:1rem 0;
+    padding:3rem 1rem;
+    margin:2rem 0;
 }
 
 /* container */
@@ -1196,6 +1203,90 @@ padding:1.5rem;
 .texte-title span{
     font-size:13px;
 }
+
+/* partie projet */
+
+.h3-project{
+    font-size:26px;
+    margin:1rem 0;
+}
+
+/* description */
+
+.project .desc-projet{
+    font-size:14px;
+    width:90%;
+    margin:1rem auto;
+}
+
+/* section */
+
+.project{
+    height:auto;
+    padding:3rem 1rem;
+}
+
+/* projets passent en colonne */
+
+.project .tech-project{
+    flex-direction:column;
+    align-items:center;
+}
+
+/* carte projet */
+
+.project .project-art{
+    width:90%;
+    height:auto;
+    margin:2rem auto;
+}
+
+/* image */
+
+.img-project{
+    width:85%;
+    height:200px;
+    margin:1.5rem auto;
+    display:block;
+}
+
+/* titre projet */
+
+.title{
+    font-size:18px;
+    margin:1rem 1.5rem;
+}
+
+/* description projet */
+
+.project-desc{
+    width:auto;
+    margin:1rem 1.5rem;
+    font-size:13px;
+}
+
+/* badges */
+
+.badges-project{
+    margin:1rem 1.5rem;
+}
+
+/* bouton projet */
+
+.btn-project{
+    width:85%;
+    margin:1.5rem auto;
+    display:block;
+}
+
+/* bouton voir plus */
+
+.btn-project-autre{
+    width:85%;
+    margin:2rem auto;
+    display:block;
+}
+
 
 }
 
@@ -1751,7 +1842,7 @@ font-size:16px;
         right: -100%;
         width: 60%;
         height: auto; /* hauteur auto pour couvrir tous les liens */
-        min-height: 508px; /* ajustable selon le nombre de liens */
+        min-height: 578px; /* ajustable selon le nombre de liens */
         flex-direction: column;
         padding: 2rem 2rem 2rem 2rem; /* padding en haut et en bas */
         background: rgba(1, 14, 46, 0.95); /* semi-transparent */
