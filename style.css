@@ -1162,16 +1162,16 @@ li:hover{
 
 
 .card{
-    width: 80%;
-    min-height: 480px;
+    width: 90%;
+    min-height: 380px;
 }
 .card1{
-    width: 80%;
+    width: 90%;
      min-height: 270px;
 }
 
 .container .container-grid p{
-    width: 230px;
+    width: 80%;
     text-align: left;
 }
 /* partie resume */
