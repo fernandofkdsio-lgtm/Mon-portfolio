@@ -1506,7 +1506,8 @@ li:hover{
     .Comp-tech .tech .tech-art,
     .Comp-tech .tech .tech-art1{
         width: 100%;     
-        height: auto;   
+        height: auto;  
+        padding: 1rem; 
         margin: 1rem auto;
         flex-wrap: wrap;
     }
