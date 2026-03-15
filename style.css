@@ -1172,7 +1172,7 @@ li:hover{
 
 .container .container-grid p{
     width: 230px;
-    text-align: justify;
+    text-align: left;
 }
 /* partie resume */
 
@@ -1765,8 +1765,8 @@ font-size:16px;
 
     .Competences{
     font-size:30px;
-    padding:3rem 0;
-    margin:0;
+    padding:auto;
+    margin:auto;
     text-align: center;
 }
 
@@ -1776,8 +1776,8 @@ font-size:16px;
     grid-template-columns:1fr 1fr;
     grid-template-rows:880px 0 0 0;
     gap:2rem;
-    width:90%;
-    margin:0 auto;
+    width:100%;
+    margin:auto;
 }
 
 /* blocs gauche droite */
