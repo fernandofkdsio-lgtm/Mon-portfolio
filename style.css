@@ -1309,12 +1309,14 @@ padding:1.5rem;
         font-size: 35px;
         width: 100%;
         margin-top: 7rem;
+        padding: 1rem;
     }
     .principal .principal-text .text1{
         text-align: center;
         margin: 0 auto;
         width: 90%;
         margin-top: 2rem;
+        padding: 1rem;
     }
     .btn .cv{
         width: 40vw;
