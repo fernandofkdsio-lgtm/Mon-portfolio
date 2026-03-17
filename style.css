@@ -210,10 +210,10 @@ transform:rotate(-45deg) translate(6px,-6px);
     transition: 0.3s;
 }
 
+
+
 .social a:hover{
-    background: none;
-    box-shadow:0 0 15px #01103c,
-           0 0 30px #8899cc;
+    
     color: rgb(60, 151, 231);
     
          
@@ -365,7 +365,7 @@ transform:rotate(-45deg) translate(6px,-6px);
 }
 
 .date,
-.fa-regular{
+.fa-calendar{
   margin:3rem 0 0 1.5rem ;
   color:white;
   font-size: 15px;
