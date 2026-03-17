@@ -1181,7 +1181,7 @@ padding:1.5rem;
 /* textes */
 
 .date,
-.fa-regular{
+.fa-calendar{
     margin:1.5rem 0 0 1rem;
     font-size:13px;
 }
@@ -1448,7 +1448,7 @@ li:hover{
     }
 
     .date,
-    .fa-regular{
+    .fa-calendar{
         margin: 2.5rem 0 0 1rem;
         font-size: 15px;
     }
