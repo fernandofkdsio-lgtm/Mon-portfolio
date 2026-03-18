@@ -2531,8 +2531,15 @@ article:hover,
 
     .Competences {
         font-size: 35px;
-        padding: 2rem 2rem 4rem 2rem;
+        padding: 4rem 2rem 4rem 2rem;
     }
+    .date,
+    .fa-calendar{
+    margin:3rem 0 0 1.5rem ;
+    color:white;
+    font-size: 15px;
+    font-weight: bold;
+}
     .bloc-comp article, .bloc-comp1 .article1 {
         width: 40vw;
     }
