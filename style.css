@@ -2505,6 +2505,7 @@ article:hover,
 
     .card, .card1 {
         width: 35vw;
+        height: 60vh;
     }
     .container h3 {
         font-size: 38px;
@@ -2513,13 +2514,11 @@ article:hover,
         font-size: 22px;
     }
     .container .container-grid p {
+        text-align: center;
+        width: 300px;
         font-size: 15px;
     }
-    .btn-pictures {
-        width: 150px;
-        height: 40px;
-        font-size: 13px;
-    }
+   
     
     /* partie resume */
 
