@@ -2,7 +2,7 @@
   margin:0;
   padding:0;
   box-sizing:border-box;
-    font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 
@@ -43,7 +43,7 @@ header{
 
 .navbar .logo a{
     
-    font-size: 2rem;
+    font-size: clamp(28px, 2.22vw, 32px);
     font-weight: bold;
      font-family: "Montserrat", sans-serif;
     color: #fff;
@@ -68,7 +68,7 @@ header{
     font-optical-sizing: auto;
     font-weight: lighter;
     font-style: normal;
-    font-size: 15px;
+    font-size: clamp(13px, 1.04vw, 15px);
     display: flex;
     list-style: none;
     color: white;
@@ -127,20 +127,20 @@ transform:rotate(-45deg) translate(6px,-6px);
 }
 
 .principal .principal-text .name{
-   font-size: 45px;
+    font-size: clamp(36px, 3.13vw, 45px);
    font-weight: 500;
    color: rgb(202, 183, 255);
     margin-top: 2rem;
 }
 .principal .principal-text .titre{
-    font-size:25px;
+    font-size: clamp(20px, 1.74vw, 25px);
     font-weight: lighter;
     color: rgb(60, 151, 231);
     
 }
 .principal .principal-text .text1{
     width: 700px;
-    font-size:18px;
+    font-size: clamp(16px, 1.25vw, 18px);
     font-weight:lighter;
     text-align: center;
     margin-left: 10rem;
@@ -238,7 +238,7 @@ transform:rotate(-45deg) translate(6px,-6px);
 .container h4{
     color: rgb(77, 171, 253);
     font-weight: bold;
-    font-size: 35px;
+   font-size: clamp(28px, 2.43vw, 35px);
     margin: 2rem 0 0 0;
     text-align: center;
 }
@@ -272,7 +272,7 @@ transform:rotate(-45deg) translate(6px,-6px);
     0 0 15px #8899cc;
     transition: 0.3s;
     font-weight: 400;
-    font-size: 14px;
+    font-size: clamp(12px, 0.97vw, 14px);
     color: white;
     letter-spacing: 1.2px;
 }
@@ -311,7 +311,7 @@ transform:rotate(-45deg) translate(6px,-6px);
 }
 
 .container .container-grid h5{
-    font-size: 25px;
+    font-size: clamp(20px, 1.74vw, 25px);
     font-weight: bolder;
     color: rgb(77, 171, 253);
     margin: 0 auto;
@@ -321,7 +321,7 @@ transform:rotate(-45deg) translate(6px,-6px);
 
 .container .container-grid p{
     width: 435px;
-    font-size: 16px;
+    font-size: clamp(14px, 1.11vw, 16px);
     color: white;
     margin: 1rem 0 0 3rem;
 }
@@ -335,7 +335,7 @@ transform:rotate(-45deg) translate(6px,-6px);
 .Competences{
     color: rgb(77, 171, 253);
     font-weight: bold;
-    font-size: 35px;
+     font-size: clamp(28px, 2.43vw, 35px);
     margin: 0.5rem 0 0 0;
     text-align: center;
     padding: 3rem;
@@ -354,7 +354,7 @@ transform:rotate(-45deg) translate(6px,-6px);
 }
 
 .bloc-comp .Formations{
-    font-size: 25px;
+    font-size: clamp(20px, 1.74vw, 25px);
     font-weight: bold;
     margin: 0 0 0 15.5rem;
     color: rgb(77, 171, 253);
@@ -369,18 +369,18 @@ transform:rotate(-45deg) translate(6px,-6px);
 .fa-calendar{
   margin:3rem 0 0 1.5rem ;
   color:white;
-  font-size: 15px;
+  font-size: clamp(13px, 1.04vw, 15px);
   font-weight: bold;
 }
 .texte-title{
-    font-size: 19px;
+   font-size: clamp(16px, 1.32vw, 19px);
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(77, 171, 253);
      margin:1rem 0 0 3rem ;
 }
 .texte-description{
-    font-size: 16px;
+     font-size: clamp(14px, 1.11vw, 16px);
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(229, 229, 229);
      margin:1rem 0 0 3rem ;
@@ -414,7 +414,7 @@ article:hover{
 }
 
 .bloc-comp1 .Experience{
-    font-size: 25px;
+   font-size: clamp(20px, 1.74vw, 25px);
     font-weight: bold;
     margin: 0 0 0 2.5rem;
     color: rgb(77, 171, 253);
@@ -437,7 +437,7 @@ article:hover{
     backdrop-filter: blur(50px);
 }
 .texte-title span{
-    font-size: 15px;
+     font-size: clamp(13px, 1.04vw, 15px);
     color: white;
     font-style: italic;
 }
@@ -574,22 +574,22 @@ article:hover{
 
 .tech-art .text-tech{
     color:rgb(77, 171, 253) ;
-    font-size: 25px;
+    font-size: clamp(20px, 1.74vw, 25px);
     margin: 2.1rem 0 0 2.5rem;
 }
 .tech-devops .text-tech{
     color:rgb(77, 171, 253) ;
-    font-size: 25px;
+    font-size: clamp(20px, 1.74vw, 25px);
     margin: 2.1rem 0 0 2.5rem;
 }
 .tech-art1 .text-tech{
     color:rgb(77, 171, 253) ;
-    font-size: 25px;
+   font-size: clamp(20px, 1.74vw, 25px);
     margin: 2.1rem 0 0 2.5rem;
 }
 .tech-art2 .text-tech{
     color:rgb(77, 171, 253) ;
-    font-size: 25px;
+    font-size: clamp(20px, 1.74vw, 25px);
     margin: 2.1rem 0 0 2.5rem;
 }
 .badges{
@@ -614,14 +614,14 @@ article:hover{
 .Title-project{
     color: rgb(77, 171, 253);
     font-weight: bold;
-    font-size: 35px;
+    font-size: clamp(28px, 2.43vw, 35px);
     margin: 1.2rem 0 0 0;
     text-align: center;
     
 }
 .project .desc-projet{
     color: rgb(216, 216, 216);
-    font-size: 16px;
+    font-size: clamp(14px, 1.11vw, 16px);
     margin: 1rem 0 0 2rem;
     padding: 0 45px 0 10px;
     text-align: center;
@@ -672,14 +672,14 @@ article:hover{
 }
 
 .title{
-    font-size: 22px;
+    font-size: clamp(18px, 1.53vw, 22px);
     color: rgb(77, 171, 253) ;
     font-weight: bold;
     margin: 2rem 0 0 1.8rem ;
 }
 .project-desc{
     margin: 1rem 0 0 1.8rem ;
-    font-size: 15px;
+     font-size: clamp(13px, 1.04vw, 15px);
     width: 330px;
     text-align: justify;
     font-weight: 300;
@@ -706,7 +706,7 @@ article:hover{
            0 0 15px #8899cc;
     transition: 0.3s;
     font-weight: bold;
-    font-size: 14px;
+    font-size: clamp(12px, 0.97vw, 14px);
     color: white;
 }
 
@@ -738,7 +738,7 @@ article:hover{
     0 0 15px #8899cc;
     transition: 0.3s;
     font-weight: bold;
-    font-size: 14px;
+    font-size: clamp(12px, 0.97vw, 14px);
     color: white;
 }
  .btn-project-autre a {
@@ -770,7 +770,7 @@ article:hover{
 
 .Certif .desc-certif{
    color: rgb(216, 216, 216);
-    font-size: 16px;
+   font-size: clamp(14px, 1.11vw, 16px);
     margin: 1rem 0 0 2rem;
     text-align: center;
     justify-content: center;
@@ -783,7 +783,7 @@ article:hover{
 .h3-certifications{
     color: rgb(77, 171, 253);
     font-weight: bold;
-    font-size: 35px;
+     font-size: clamp(28px, 2.43vw, 35px);
     margin: 0.5rem 0 0 0;
     text-align: center;
     
@@ -821,13 +821,13 @@ article:hover{
     border-radius: 10px;
 }
 .title-certif{
-    font-size: 15px;
+    font-size: clamp(13px, 1.04vw, 15px);
     color: white;
     font-weight: 600;
     margin: 1rem 0 0 0;
 }
 .institut{
-    font-size: 15px;
+    font-size: clamp(13px, 1.04vw, 15px);
     color: rgb(167, 167, 167);
     font-weight: 400;
     margin: 1rem 0 0 0;
@@ -845,7 +845,7 @@ article:hover{
     0 0 15px #8899cc;
     transition: 0.3s;
     font-weight: 400;
-    font-size: 14px;
+    font-size: clamp(12px, 0.97vw, 14px);
     color: white;
 }
 .fa-eye {
@@ -864,7 +864,7 @@ article:hover{
     text-decoration: none;
     color: white;
      font-weight: 400;
-    font-size: 14px;
+   font-size: clamp(12px, 0.97vw, 14px);
 }
 
 /* partie services */
@@ -877,7 +877,7 @@ article:hover{
 }
 
 .services h2{
-    font-size:35px;
+    font-size: clamp(28px, 2.43vw, 35px);
     margin-bottom:10px;
     color: rgb(77, 171, 253);
 }
@@ -931,7 +931,7 @@ article:hover{
     align-items:center;
     justify-content:center;
     margin:0 auto 20px;
-    font-size:22px;
+    font-size: clamp(18px, 1.53vw, 22px);
     color:#38bdf8;
 }
 
@@ -940,7 +940,7 @@ article:hover{
 }
 
 .service-card p{
-    font-size:14px;
+   font-size: clamp(12px, 0.97vw, 14px);
     color:#9ca3af;
 }
 
@@ -954,7 +954,7 @@ text-align:center;
 }
 
 .testimonials h2{
-font-size:36px;
+font-size: clamp(30px, 2.5vw, 36px);
 margin-bottom:50px;
 }
 
@@ -1025,7 +1025,7 @@ margin-bottom:15px;
 }
 
 .bubble h4{
-font-size:14px;
+font-size: clamp(12px, 0.97vw, 14px);
 color:#aaa;
 }
 
@@ -1034,7 +1034,7 @@ color:rgb(77, 171, 253);
 } */ */
 
 .vscode-icon{
-    font-size: 17px;
+    font-size: clamp(15px, 1.18vw, 17px);
 }
 
 /* partie contact */
@@ -1047,7 +1047,7 @@ color:rgb(77, 171, 253);
 
 .title-contact{
     text-align:center;
-    font-size:35px;
+    font-size: clamp(28px, 2.43vw, 35px);
     font-weight: bold;
     color: #1e90ff;
 }
@@ -1113,7 +1113,7 @@ color:rgb(77, 171, 253);
     background:#1e90ff;
     border:none;
     color:white;
-    font-size:16px;
+     font-size: clamp(14px, 1.11vw, 16px);
     border-radius:6px;
     cursor:pointer;
     transition: 1s;
@@ -1161,14 +1161,14 @@ color:rgb(77, 171, 253);
 
 .footer p {
     margin: 0;
-    font-size: 16px;
+    font-size: clamp(14px, 1.11vw, 16px);
     font-weight: 500;
 }
 
 .footer span {
     display: block;
     margin-top: 8px;
-    font-size: 14px;
+    font-size: clamp(12px, 0.97vw, 14px);
     opacity: 0.8;
 }
 
@@ -1184,13 +1184,13 @@ padding:0 1rem;
 /* HERO */
 
 .principal .principal-text .name{
-font-size:28px;
+font-size: clamp(22px, 1.94vw, 28px);
 margin-top:6rem;
 }
 
 .principal .principal-text .text1{
 width:100%;
-font-size:14px;
+font-size: clamp(12px, 0.97vw, 14px);
 }
 
 .btn .cv,
@@ -1215,7 +1215,7 @@ padding:1rem;
 }
 
 .container h3{
-font-size:24px;
+font-size: clamp(18px, 1.67vw, 24px);
 }
 
 .card{
@@ -1224,14 +1224,14 @@ padding:1.5rem;
 }
 
 .container .container-grid h5{
-    font-size:20px;
+    font-size: clamp(16px, 1.39vw, 20px);
     text-align:center;
     margin:1.5rem auto 0 auto;
 }
 
 .container .container-grid p{
     width:95%;
-    font-size:14px;
+    font-size: clamp(12px, 0.97vw, 14px);
     margin:1rem auto;
     text-align:left;
 }
@@ -1239,7 +1239,7 @@ padding:1.5rem;
 
 /* RESUME */
 .Competences{
-    font-size:26px;
+    font-size: clamp(20px, 1.81vw, 26px);
     padding:3rem 1rem;
     margin:2rem 0;
 }
@@ -1267,13 +1267,13 @@ padding:1.5rem;
 /* titres */
 
 .bloc-comp .Formations{
-    font-size:20px;
+    font-size: clamp(16px, 1.39vw, 20px);
     margin:0 auto;
     text-align:center;
 }
 
 .bloc-comp1 .Experience{
-    font-size:20px;
+    font-size: clamp(16px, 1.39vw, 20px);
     margin:1rem auto;
     text-align:center;
 }
@@ -1297,36 +1297,36 @@ padding:1.5rem;
 .date,
 .fa-calendar{
     margin:1.5rem 0 0 1rem;
-    font-size:13px;
+    font-size: clamp(12px, 0.90vw, 13px);
 }
 
 .texte-title{
-    font-size:16px;
+    font-size: clamp(14px, 1.11vw, 16px);
     margin:1rem 0 0 1.5rem;
 }
 
 .texte-description{
     width:85%;
-    font-size:13px;
+    font-size: clamp(12px, 0.90vw, 13px);
     margin:0.8rem 0 0 1.5rem;
     line-height:1.4;
 }
 
 .texte-title span{
-    font-size:13px;
+    font-size: clamp(12px, 0.90vw, 13px);
 }
 
 /* partie projet */
 
 .h3-project{
-    font: size 35px;
+    font-size: clamp(24px, 2.43vw, 35px);
     margin:1rem 0;
 }
 
 /* description */
 
 .project .desc-projet{
-    font-size:14px;
+    font-size: clamp(12px, 0.97vw, 14px);
     width:90%;
     margin:1rem auto;
 }
@@ -1365,7 +1365,7 @@ padding:1.5rem;
 /* titre projet */
 
 .title{
-    font-size:18px;
+    font-size: clamp(16px, 1.25vw, 18px);
     margin:1rem 1.5rem;
 }
 
@@ -1374,7 +1374,7 @@ padding:1.5rem;
 .project-desc{
     width:auto;
     margin:1rem 1.5rem;
-    font-size:13px;
+    font-size: clamp(12px, 0.90vw, 13px);
 }
 
 /* badges */
@@ -1414,14 +1414,14 @@ padding:1.5rem;
      .principal{
         width: 100%;
         min-height: 100vh;
-        font-size: 1rem;
+        font-size: clamp(14px, 1.11vw, 16px);
         display: flex;
         flex-direction: column;
         padding: 1rem;
     }
 
     .principal .principal-text .name{
-        font-size: 28px;
+        font-size: clamp(22px, 1.94vw, 28px);
         width: 100%;
         margin-top: 7rem;
         
@@ -1502,7 +1502,7 @@ li:hover{
 }
 
 .container h3{
-    font-size: 30px;
+    font-size: clamp(24px, 2.08vw, 30px);
     margin-top: 3rem;
 }
 
@@ -1548,7 +1548,7 @@ li:hover{
     }
 
     .bloc-comp .Formations{
-        font-size: 22px;
+       font-size: clamp(18px, 1.53vw, 22px);
         margin: 0 0 0 1rem;
         text-align: center;
     }
@@ -1563,11 +1563,11 @@ li:hover{
     .date,
     .fa-calendar{
         margin: 2.5rem 0 0 1rem;
-        font-size: 15px;
+        font-size: clamp(13px, 1.04vw, 15px);
     }
 
     .texte-title{
-        font-size: 16px;
+        font-size: clamp(14px, 1.11vw, 16px);
         width: 200px;
         margin: 1rem 0 0 2rem;
         text-align: left;
@@ -1575,13 +1575,13 @@ li:hover{
 
     .texte-description{
         width:80%;
-        font-size: 14px;
+        font-size: clamp(12px, 0.97vw, 14px);
          margin: 1rem 0 0 2rem;
         line-height: 1.4;
     }
 
     .texte-title span{
-        font-size: 13px;
+        font-size: clamp(12px, 0.90vw, 13px);
     }
 
     /* Bloc expérience */
@@ -1592,7 +1592,7 @@ li:hover{
     }
 
     .bloc-comp1 .Experience{
-        font-size: 22px;
+        font-size: clamp(18px, 1.53vw, 22px);
         margin: 1rem 0 0 1rem;
         text-align: center;
     }
@@ -1656,7 +1656,7 @@ li:hover{
      .tech-devops .text-tech,
     .tech-art1 .text-tech,
     .tech-art2 .text-tech{
-        font-size: 20px;
+        font-size: clamp(16px, 1.39vw, 20px);
         margin: 1.5rem 1rem 0 1rem;
         text-align: center;
     }
@@ -1668,14 +1668,14 @@ li:hover{
     }
 
     .badge{
-        font-size: 13px;
+        font-size: clamp(12px, 0.90vw, 13px);
         padding: 6px 12px;
     }
 
     /* partie project */
 
     .h3-project{
-    font-size: 25px;
+    font-size: clamp(20px, 1.74vw, 25px);
     
 }
 
@@ -1708,7 +1708,7 @@ li:hover{
 
 /* titre */
 .title{
-    font-size: 20px;
+   font-size: clamp(16px, 1.39vw, 20px);
     margin: 1rem 1.5rem;
 }
 
@@ -1716,7 +1716,7 @@ li:hover{
 .project-desc{
     width: auto;
     margin: 1rem 1.5rem;
-    font-size: 14px;
+    font-size: clamp(12px, 0.97vw, 14px);
 }
 
 /* badges */
@@ -1742,7 +1742,7 @@ li:hover{
     height:48px;
     margin:0 auto; /* centre le bouton */
     border-radius:25px;
-    font-size:13px;
+    font-size: clamp(12px, 0.90vw, 13px);
 }
 
 /* partie certification */
@@ -1753,7 +1753,7 @@ li:hover{
     }
 
     .Certif .desc-certif {
-        font-size: 15px;
+        font-size: clamp(13px, 1.04vw, 15px);
         margin: 1rem auto;
         text-align: center;
         padding: 0 45px 0 45px;
@@ -1797,7 +1797,7 @@ li:hover{
     .btn-certif {
         width: 140px;
         height: 36px;
-        font-size: 13px;
+        font-size: clamp(12px, 0.90vw, 13px);
         margin: 1.2rem 0 0 0;
     }
 
@@ -1813,7 +1813,7 @@ padding:60px 20px;
 }
 
 .testimonials h2{
-font-size:28px;
+font-size: clamp(22px, 1.94vw, 28px);
 margin-bottom:30px;
 }
 
@@ -1855,11 +1855,11 @@ display:none;
 }
 
 .bubble p{
-font-size:14px;
+font-size: clamp(12px, 0.97vw, 14px);
 }
 
 .bubble h4{
-font-size:13px;
+font-size: clamp(12px, 0.90vw, 13px);
 }
 
 /* partie contact */
@@ -1869,11 +1869,11 @@ padding:auto;
 }
 
 .contact-title{
-font-size:28px;
+ font-size: clamp(22px, 1.94vw, 28px);
 }
 
 .contact-subtitle{
-font-size:14px;
+font-size: clamp(12px, 0.97vw, 14px);
 margin-bottom:40px;
 }
 
@@ -1888,13 +1888,13 @@ padding:20px;
 }
 
 .contact-form h3{
-font-size:18px;
+font-size: clamp(16px, 1.25vw, 18px);
 }
 
 .contact-form input,
 .contact-form textarea{
 padding:12px;
-font-size:14px;
+font-size: clamp(12px, 0.97vw, 14px);
 }
 
 .contact-form textarea{
@@ -1903,7 +1903,7 @@ height:100px;
 
 .contact-form button{
 padding:12px;
-font-size:14px;
+font-size: clamp(12px, 0.97vw, 14px);
 }
 
 .contact-info{
@@ -1918,18 +1918,18 @@ padding:20px;
 
 .info-box h4{
 width: 80%;
-font-size:16px;
+font-size: clamp(14px, 1.11vw, 16px);
 }
 .footer {
         padding: 1.5rem 1rem;
     }
 
     .footer p {
-        font-size: 14px;
+        font-size: clamp(12px, 0.97vw, 14px);
     }
 
     .footer span {
-        font-size: 12px;
+        font-size: clamp(10px, 0.83vw, 12px);
     }
 }
 
@@ -1953,12 +1953,12 @@ font-size:16px;
     }
 
     .navbar .logo a {
-        font-size: 1.8rem;
+        font-size: clamp(24px, 2.0vw, 29px);
         gap: 2rem;
     }
 
     .navbar .links {
-        font-size: 14px;
+        font-size: clamp(12px, 0.97vw, 14px);
         gap: 1.5rem;
     }
 
@@ -1998,7 +1998,7 @@ font-size:16px;
     .links li a {
         display: block;
         width: 100%;
-        font-size: 16px;
+        font-size: clamp(14px, 1.11vw, 16px);
         text-align: center;
         padding: 12px 0; /* plus de padding pour mieux remplir */
     }
@@ -2026,17 +2026,17 @@ font-size:16px;
     }
 
     .principal .principal-text .name {
-        font-size: 38px; /* légèrement plus petit que desktop */
+        font-size: clamp(32px, 2.64vw, 38px);/* légèrement plus petit que desktop */
         margin-top: 2rem;
     }
 
     .principal .principal-text .titre {
-        font-size: 22px;
+        font-size: clamp(18px, 1.53vw, 22px);
         margin-top: 0.5rem;
     }
 
     .principal .principal-text .text1 {
-        font-size: 16px;
+        font-size: clamp(14px, 1.11vw, 16px);
         width: 90%;
         margin: 1.5rem auto 2rem auto;
         text-align: center;
@@ -2049,7 +2049,7 @@ font-size:16px;
     .btn .Call {
         width: 45%;
         height: 50px;
-        font-size: 14px;
+        font-size: clamp(12px, 0.97vw, 14px);
         margin: 1rem 0.5rem;
     }
 
@@ -2069,7 +2069,7 @@ font-size:16px;
     }
 
     .social a {
-        font-size: 20px;
+        font-size: clamp(16px, 1.39vw, 20px);
     }
 
      .container {
@@ -2083,7 +2083,7 @@ font-size:16px;
 
     /* Titre H3 */
     .container h4 {
-        font-size: 35px;
+        font-size: clamp(28px, 2.43vw, 35px);
         font-weight: bold;
         color: rgb(77, 171, 253);
         margin: 0 0 4rem 0;
@@ -2122,7 +2122,7 @@ font-size:16px;
 
     /* Titre à l'intérieur des cartes */
     .container .container-grid h5 {
-        font-size: 20px;
+        font-size: clamp(16px, 1.39vw, 20px);
         font-weight: bold;
         text-align: center ;
         color: rgb(77, 171, 253);
@@ -2133,7 +2133,7 @@ font-size:16px;
     /* Paragraphes à l'intérieur des cartes */
     .container .container-grid p {
         width: 90%;        /* s'adapte à la carte */
-        font-size: 14px;
+        font-size: clamp(12px, 0.97vw, 14px);
         color: white;
         margin: 0.5rem auto 1rem 1rem;
         text-align: center;
@@ -2144,7 +2144,7 @@ font-size:16px;
     /* partie resumé */
 
     .Competences{
-    font-size:35px;
+   font-size: clamp(28px, 2.43vw, 35px);
     padding:auto;
     margin:auto;
     text-align: center;
@@ -2172,7 +2172,7 @@ font-size:16px;
 /* titres Formation / Experience */
 .bloc-comp .Formations,
 .bloc-comp1 .Experience{
-    font-size:29px;
+    font-size: clamp(24px, 2.01vw, 29px);
     margin:2.5rem 0 0 0;
     text-align:center;
 }
@@ -2190,18 +2190,18 @@ font-size:16px;
 .date,
 .fa-regular{
     margin:0;
-    font-size:14px;
+    font-size: clamp(12px, 0.97vw, 14px);
 }
 
 .texte-title{
     margin:0.8rem 0;
-    font-size:17px;
+    font-size: clamp(15px, 1.18vw, 17px);
 }
 
 .texte-description{
     margin:0;
     width:100%;
-    font-size:15px;
+    font-size: clamp(13px, 1.04vw, 15px);
     line-height:1.4;
 }
 
@@ -2269,7 +2269,7 @@ article:hover,
 .tech-art1 .text-tech,
 .tech-devops .text-tech,
 .tech-art2 .text-tech{
-    font-size:22px;
+    font-size: clamp(18px, 1.53vw, 22px);
     margin:0 0 1rem 0;
 }
 
@@ -2282,7 +2282,7 @@ article:hover,
 }
 
 .badge{
-    font-size:14px;
+    font-size: clamp(12px, 0.97vw, 14px);
     padding:8px 14px;
 }
 
@@ -2297,7 +2297,7 @@ article:hover,
 
 /* titre */
 .h3-project{
-    font-size:30px;
+    font-size: clamp(24px, 2.08vw, 30px);
     margin:0;
 }
 
@@ -2334,7 +2334,7 @@ article:hover,
 /* titre projet */
 .title{
     margin:1rem 0;
-    font-size:20px;
+   font-size: clamp(16px, 1.39vw, 20px);
 }
 
 /* description projet */
@@ -2403,12 +2403,12 @@ article:hover,
 
 /* titre */
 .title-certif{
-    font-size:16px;
+    font-size: clamp(14px, 1.11vw, 16px);
 }
 
 /* institut */
 .institut{
-    font-size:14px;
+    font-size: clamp(12px, 0.97vw, 14px);
 }
 
 /* bouton */
@@ -2426,7 +2426,7 @@ article:hover,
 /* titre */
 
 .testimonials h2{
-    font-size:32px;
+    font-size: clamp(28px, 2.22vw, 32px);
     margin-bottom:40px;
 }
 
@@ -2461,11 +2461,11 @@ article:hover,
 /* texte */
 
 .bubble p{
-    font-size:15px;
+     font-size: clamp(13px, 1.04vw, 15px);
 }
 
 .bubble h4{
-    font-size:13px;
+    font-size: clamp(12px, 0.90vw, 13px);
 }
 }
 
@@ -2483,17 +2483,17 @@ article:hover,
     }
 
     .navbar .logo a {
-        font-size: 2.2rem;
+        font-size: clamp(28px, 2.43vw, 35px);
     }
 
     .links a {
-        font-size: 16px;
+       font-size: clamp(14px, 1.11vw, 16px);
     }
      .principal .principal-text .name {
-        font-size: 40px;
+        font-size: clamp(32px, 2.78vw, 40px);
     }
     .principal .principal-text .titre {
-        font-size: 28px;
+        font-size: clamp(22px, 1.94vw, 28px);
     }
     .principal .principal-text .text1 {
         max-width: 600px;
@@ -2515,29 +2515,29 @@ article:hover,
 
     }
     .container h3 {
-        font-size: 38px;
+        font-size: clamp(32px, 2.64vw, 38px);
     }
     .container .container-grid h5 {
-        font-size: 22px;
+        font-size: clamp(18px, 1.53vw, 22px);
     }
     .container .container-grid p {
         text-align: center;
         width: 400px;
-        font-size: 15px;
+        font-size: clamp(13px, 1.04vw, 15px);
     }
    
     
     /* partie resume */
 
     .Competences {
-        font-size: 35px;
+        font-size: clamp(28px, 2.43vw, 35px);
         padding: 4rem 2rem 4rem 2rem;
     }
    .date,
 .fa-calendar {
     display: block;
     color: white;
-    font-size: 15px;
+    font-size: clamp(13px, 1.04vw, 15px);
     font-weight: bold;
     margin-top: 1.9rem;
 }
@@ -2545,10 +2545,10 @@ article:hover,
         width: 40vw;
     }
     .texte-title {
-        font-size: 17px;
+        font-size: clamp(15px, 1.18vw, 17px);
     }
     .texte-description {
-        font-size: 15px;
+        font-size: clamp(13px, 1.04vw, 15px);
     }
 
     /* partie competences technique */
@@ -2573,10 +2573,10 @@ article:hover,
     .tech-art .text-tech,
     .tech-art1 .text-tech
     .tech-art2 .text-tech {
-        font-size: 22px;
+        font-size: clamp(18px, 1.53vw, 22px);
     }
     .badge {
-        font-size: 14px;
+        font-size: clamp(12px, 0.97vw, 14px);
         padding: 8px 15px;
     }
 
