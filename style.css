@@ -2505,7 +2505,8 @@ article:hover,
 
     .card, .card1 {
         width: 35vw;
-        height: 40vh;
+        height: 43vh;
+        margin: 0 auto;
     }
     .container h3 {
         font-size: 38px;
