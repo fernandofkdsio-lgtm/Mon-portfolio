@@ -2505,7 +2505,7 @@ article:hover,
 
     .card, .card1 {
         width: 35vw;
-        height: 60vh;
+        height: 40vh;
     }
     .container h3 {
         font-size: 38px;
@@ -2515,7 +2515,7 @@ article:hover,
     }
     .container .container-grid p {
         text-align: center;
-        width: 300px;
+        width: 400px;
         font-size: 15px;
     }
    
