@@ -2533,12 +2533,13 @@ article:hover,
         font-size: 35px;
         padding: 4rem 2rem 4rem 2rem;
     }
-    .date,
-    .fa-calendar{
-    margin:3rem 0 0 1.5rem ;
-    color:white;
+   .date,
+.fa-calendar {
+    display: block;
+    color: white;
     font-size: 15px;
     font-weight: bold;
+    margin-top: 1.9rem;
 }
     .bloc-comp article, .bloc-comp1 .article1 {
         width: 40vw;
