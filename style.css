@@ -2472,6 +2472,12 @@ article:hover,
 /* partie Desktop */
 
 @media (min-width: 1200px) {
+    *{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+    font-family: "Montserrat", sans-serif;
+}
     .navbar {
         max-width: 80rem;
     }
@@ -2506,7 +2512,7 @@ article:hover,
     .card, .card1 {
         width: 35vw;
         height: 43vh;
-        margin: 0 auto;
+
     }
     .container h3 {
         font-size: 38px;
