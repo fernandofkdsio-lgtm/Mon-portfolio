@@ -235,11 +235,11 @@ transform:rotate(-45deg) translate(6px,-6px);
    
 }
 
-.container h3{
+.container h4{
     color: rgb(77, 171, 253);
     font-weight: bold;
     font-size: 35px;
-    margin: 5rem 0 0 0;
+    margin: 2rem 0 0 0;
     text-align: center;
 }
 
@@ -315,7 +315,8 @@ transform:rotate(-45deg) translate(6px,-6px);
     font-weight: bolder;
     color: rgb(77, 171, 253);
     margin: 0 auto;
-    margin: 2rem 0 0 3rem;
+    margin: 2rem 0 0 0;
+    text-align: center;
 }
 
 .container .container-grid p{
@@ -335,9 +336,9 @@ transform:rotate(-45deg) translate(6px,-6px);
     color: rgb(77, 171, 253);
     font-weight: bold;
     font-size: 35px;
-    margin: 0.5rem 0 0 2rem;
+    margin: 0.5rem 0 0 0;
     text-align: center;
-    padding: 5rem;
+    padding: 3rem;
 }
 
 .comp-container{
@@ -447,28 +448,106 @@ article:hover{
     width: 100%;
     height: 800px;
     background: #00103d;
+    padding: 0 4rem;
    
 }
 
 .Comp-tech .tech{
     display: flex;
+    justify-content: center; /* 🔥 centre horizontal */
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    max-width: 1200px; /* limite largeur */
+    margin: 0 auto; 
+}
+
+.Comp-tech .tech2{
+    display: flex;
+    justify-content: center; /* 🔥 centre horizontal */
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    max-width: 1200px; /* limite largeur */
+    margin: 0 auto; 
 }
 
 .Comp-tech .tech .tech-art{
-     width: 35vw;
+    width: 35vw;
     height: 25vh;
     background: #0d1b47;
     border-radius: 30px;
     outline: 1px solid rgb(108, 108, 108);
     box-shadow:0 0 15px #000e37,
            0 0 15px #8899cc;
-            transition: 0.3s;
+    transition: 0.3s;
     gap: 2rem;
-    margin: 2rem 0 0 12rem;
+    
+}
+.Comp-tech .tech2 .tech-art{
+    width: 35vw;
+    height: 25vh;
+    background: #0d1b47;
+    border-radius: 30px;
+    outline: 1px solid rgb(108, 108, 108);
+    box-shadow:0 0 15px #000e37,
+           0 0 15px #8899cc;
+    transition: 0.3s;
+    gap: 2rem;
+    
+}
+
+.Comp-tech .tech2 .tech-devops{
+    width: 35vw;
+    height: 25vh;
+    background: #0d1b47;
+    border-radius: 30px;
+    outline: 1px solid rgb(108, 108, 108);
+    box-shadow:0 0 15px #000e37,
+           0 0 15px #8899cc;
+    transition: 0.3s;
+    gap: 2rem;
+    
 }
 .Comp-tech .tech .tech-art1{
-     width: 35vw;
-    height: 30vh;
+    width: 35vw;
+    height: 29vh;
+    background: #0d1b47;
+    border-radius: 30px;
+    outline: 1px solid rgb(108, 108, 108);
+    box-shadow:0 0 15px #000e37,
+           0 0 15px #8899cc;
+            transition: 0.3s;
+    gap: 2rem; 
+}
+
+.Comp-tech .tech .tech-devops{
+    width: 35vw;
+    height: 29vh;
+    background: #0d1b47;
+    border-radius: 30px;
+    outline: 1px solid rgb(108, 108, 108);
+    box-shadow:0 0 15px #000e37,
+           0 0 15px #8899cc;
+            transition: 0.3s;
+    gap: 2rem; 
+}
+
+.Comp-tech .tech2 .tech-art1{
+    width: 35vw;
+    height: 29vh;
+    background: #0d1b47;
+    border-radius: 30px;
+    outline: 1px solid rgb(108, 108, 108);
+    box-shadow:0 0 15px #000e37,
+           0 0 15px #8899cc;
+            transition: 0.3s;
+    gap: 2rem; 
+}
+
+.Comp-tech .tech .tech-art2{
+    width: 35vw;
+    height: 29vh;
     background: #0d1b47;
     border-radius: 30px;
     outline: 1px solid rgb(108, 108, 108);
@@ -476,7 +555,21 @@ article:hover{
            0 0 15px #8899cc;
             transition: 0.3s;
     gap: 2rem;
-    margin: 2rem 0 0 2rem;
+    
+    
+}
+.Comp-tech .tech2 .tech-art2{
+    width: 35vw;
+    height: 29vh;
+    background: #0d1b47;
+    border-radius: 30px;
+    outline: 1px solid rgb(108, 108, 108);
+    box-shadow:0 0 15px #000e37,
+           0 0 15px #8899cc;
+            transition: 0.3s;
+    gap: 2rem;
+    
+    
 }
 
 .tech-art .text-tech{
@@ -484,7 +577,17 @@ article:hover{
     font-size: 25px;
     margin: 2.1rem 0 0 2.5rem;
 }
+.tech-devops .text-tech{
+    color:rgb(77, 171, 253) ;
+    font-size: 25px;
+    margin: 2.1rem 0 0 2.5rem;
+}
 .tech-art1 .text-tech{
+    color:rgb(77, 171, 253) ;
+    font-size: 25px;
+    margin: 2.1rem 0 0 2.5rem;
+}
+.tech-art2 .text-tech{
     color:rgb(77, 171, 253) ;
     font-size: 25px;
     margin: 2.1rem 0 0 2.5rem;
@@ -508,11 +611,11 @@ article:hover{
 /* partie projets */
 
 
-.h3-project{
+.Title-project{
     color: rgb(77, 171, 253);
     font-weight: bold;
     font-size: 35px;
-    margin: 0.5rem 0 0 2.3rem;
+    margin: 1.2rem 0 0 0;
     text-align: center;
     
 }
@@ -520,6 +623,7 @@ article:hover{
     color: rgb(216, 216, 216);
     font-size: 16px;
     margin: 1rem 0 0 2rem;
+    padding: 0 45px 0 10px;
     text-align: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -676,6 +780,15 @@ article:hover{
     
 }
 
+.h3-certifications{
+    color: rgb(77, 171, 253);
+    font-weight: bold;
+    font-size: 35px;
+    margin: 0.5rem 0 0 0;
+    text-align: center;
+    
+}
+
 .certif-article{
     display: flex;
     text-align: center;
@@ -758,13 +871,13 @@ article:hover{
 
 .services{
    background: linear-gradient(90deg, #0b1a3a, #0f224d);
-    padding:100px 10%;
+    padding:85px 10%;
     text-align:center;
     color:white;
 }
 
 .services h2{
-    font-size:40px;
+    font-size:35px;
     margin-bottom:10px;
     color: rgb(77, 171, 253);
 }
@@ -932,9 +1045,10 @@ color:rgb(77, 171, 253);
     color:white;
 }
 
-.contact-title{
+.title-contact{
     text-align:center;
-    font-size:40px;
+    font-size:35px;
+    font-weight: bold;
     color: #1e90ff;
 }
 
@@ -1205,7 +1319,7 @@ padding:1.5rem;
 /* partie projet */
 
 .h3-project{
-    font-size:26px;
+    font: size 35px;
     margin:1rem 0;
 }
 
@@ -1403,17 +1517,17 @@ li:hover{
 
 
 .card{
-    width: 100%;
-    min-height: clamp(250px, 50vh, 400px);
+    width: 80%;
+    min-height: clamp(300px, 70vh, 420px);
 }
 
 .card1{
-    width: 100%;
-    min-height: clamp(200px, 30vh, 320px);
+    width: 80%;
+    min-height: clamp(210px, 30vh, 320px);
 }
 
 .container .container-grid p{
-    width: 80%;
+    width: 285px;
     text-align: center;
 }
 /* partie resume */
@@ -1441,7 +1555,7 @@ li:hover{
     }
 
     .comp-container .bloc-comp article{
-        width: 100%;        
+        width: 80%;        
         height: 170px;      
         margin: 1rem auto;
         gap: 1rem;
@@ -1484,7 +1598,7 @@ li:hover{
     }
 
     .comp-container .bloc-comp1 .article1{
-        width: 100%;
+        width: 80%;
         height: 250px;
         margin: 1rem auto;
         gap: 1rem;
@@ -1493,7 +1607,7 @@ li:hover{
 
     .Comp-tech{
         width: 100%;
-        height: 1150px;
+        height: 1250px;
         padding: 2rem;
         flex-wrap: wrap;
     }
@@ -1505,11 +1619,30 @@ li:hover{
         align-items: center;
         gap: 1.5rem;
     }
+    .Comp-tech .tech2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
 
    
     .Comp-tech .tech .tech-art,
-    .Comp-tech .tech .tech-art1{
-        width: 100%;     
+    .Comp-tech .tech .tech-devops,
+    .Comp-tech .tech .tech-art1,
+    .Comp-tech .tech .tech-art2{
+        width: 80%;     
+        height: auto;  
+        padding: 1.5rem; 
+        margin: 1rem auto;
+        flex-wrap: wrap;
+    }
+
+      .Comp-tech .tech2 .tech-art,
+      .Comp-tech .tech2 .tech-devops,
+    .Comp-tech .tech2 .tech-art1,
+    .Comp-tech .tech2 .tech-art2{
+        width: 80%;     
         height: auto;  
         padding: 1rem; 
         margin: 1rem auto;
@@ -1520,7 +1653,9 @@ li:hover{
 
     /* Textes à l’intérieur des blocs */
     .tech-art .text-tech,
-    .tech-art1 .text-tech{
+     .tech-devops .text-tech,
+    .tech-art1 .text-tech,
+    .tech-art2 .text-tech{
         font-size: 20px;
         margin: 1.5rem 1rem 0 1rem;
         text-align: center;
@@ -1621,6 +1756,7 @@ li:hover{
         font-size: 15px;
         margin: 1rem auto;
         text-align: center;
+        padding: 0 45px 0 45px;
     }
 
     .certif-article {
@@ -1946,8 +2082,8 @@ font-size:16px;
     }
 
     /* Titre H3 */
-    .container h3 {
-        font-size: 28px;
+    .container h4 {
+        font-size: 35px;
         font-weight: bold;
         color: rgb(77, 171, 253);
         margin: 0 0 4rem 0;
@@ -1988,8 +2124,9 @@ font-size:16px;
     .container .container-grid h5 {
         font-size: 20px;
         font-weight: bold;
+        text-align: center ;
         color: rgb(77, 171, 253);
-        margin: 1rem 0 0.5rem 1rem;
+        
         
     }
 
@@ -1999,7 +2136,7 @@ font-size:16px;
         font-size: 14px;
         color: white;
         margin: 0.5rem auto 1rem 1rem;
-        
+        text-align: center;
         line-height: 1.4;
     }
 
@@ -2007,7 +2144,7 @@ font-size:16px;
     /* partie resumé */
 
     .Competences{
-    font-size:30px;
+    font-size:35px;
     padding:auto;
     margin:auto;
     text-align: center;
@@ -2021,6 +2158,7 @@ font-size:16px;
     gap:2rem;
     width:100%;
     margin:auto;
+    padding: 20px;
 }
 
 /* blocs gauche droite */
@@ -2028,13 +2166,14 @@ font-size:16px;
 .bloc-comp1{
     grid-column:auto;
     grid-row:auto;
+    padding: 50px;
 }
 
 /* titres Formation / Experience */
 .bloc-comp .Formations,
 .bloc-comp1 .Experience{
-    font-size:22px;
-    margin:2.5rem 0 1rem 0;
+    font-size:29px;
+    margin:2.5rem 0 0 0;
     text-align:center;
 }
 
@@ -2056,7 +2195,7 @@ font-size:16px;
 
 .texte-title{
     margin:0.8rem 0;
-    font-size:18px;
+    font-size:17px;
 }
 
 .texte-description{
@@ -2078,6 +2217,7 @@ article:hover,
     width:100%;
     height:auto;
     padding:2rem 0 5rem 0;
+    
 }
 
 /* container des blocs */
@@ -2091,19 +2231,43 @@ article:hover,
     margin:0 auto;
 }
 
+.Comp-tech .tech2{
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    gap:2rem;
+    flex-wrap:wrap;
+    width:90%;
+    margin:0 auto;
+}
+
 /* blocs compétences */
 .Comp-tech .tech .tech-art,
-.Comp-tech .tech .tech-art1{
+.Comp-tech .tech .tech-devops,
+.Comp-tech .tech .tech-art1,
+.Comp-tech .tech .tech-art2{
+    width:45%;
+    min-width:280px;
+    margin: 1rem 0 0 0;
+    padding:1.5rem;
+}
+
+.Comp-tech .tech2 .tech-art,
+.Comp-tech .tech2 .tech-devops,
+.Comp-tech .tech2 .tech-art1,
+.Comp-tech .tech2 .tech-art2{
     width:45%;
     min-width:280px;
     height:auto;
-    margin: 2rem 0 0 0;
+    margin: 1rem 0 0 0;
     padding:2rem;
 }
 
 /* titres dans les blocs */
 .tech-art .text-tech,
-.tech-art1 .text-tech{
+.tech-art1 .text-tech,
+.tech-devops .text-tech,
+.tech-art2 .text-tech{
     font-size:22px;
     margin:0 0 1rem 0;
 }
@@ -2305,3 +2469,106 @@ article:hover,
 }
 
 /* partie Desktop */
+
+@media (min-width: 1200px) {
+    .navbar {
+        max-width: 80rem;
+    }
+
+    .navbar .logo a {
+        font-size: 2.2rem;
+    }
+
+    .links a {
+        font-size: 16px;
+    }
+     .principal .principal-text .name {
+        font-size: 40px;
+    }
+    .principal .principal-text .titre {
+        font-size: 28px;
+    }
+    .principal .principal-text .text1 {
+        max-width: 600px;
+    }
+    .btn .cv {
+        width: 12vw;
+        height: 7vh;
+    }
+    .btn .Call {
+        width: 11vw;
+        height: 7vh;
+    }
+
+    /* partie about */
+
+    .card, .card1 {
+        width: 35vw;
+    }
+    .container h3 {
+        font-size: 38px;
+    }
+    .container .container-grid h5 {
+        font-size: 22px;
+    }
+    .container .container-grid p {
+        font-size: 15px;
+    }
+    .btn-pictures {
+        width: 150px;
+        height: 40px;
+        font-size: 13px;
+    }
+    
+    /* partie resume */
+
+    .Competences {
+        font-size: 35px;
+        padding: 4rem 2rem 4rem 2rem;
+    }
+    .bloc-comp article, .bloc-comp1 .article1 {
+        width: 40vw;
+    }
+    .texte-title {
+        font-size: 21px;
+    }
+    .texte-description {
+        font-size: 15px;
+    }
+
+    /* partie competences technique */
+
+    .Comp-tech .tech .tech-art,
+    .Comp-tech .tech .tech-art1, 
+     .Comp-tech .tech .tech-art2 {
+        margin-top: 2rem;
+        width: 30vw; /* légèrement plus large pour desktop moyen */ 
+    
+    }
+
+    
+    .Comp-tech .tech2 .tech-art,
+    .Comp-tech .tech2 .tech-art1, 
+     .Comp-tech .tech2 .tech-art2 {
+        margin-top: 2rem;
+        width: 30vw; /* légèrement plus large pour desktop moyen */ 
+    
+    }
+
+    .tech-art .text-tech,
+    .tech-art1 .text-tech
+    .tech-art2 .text-tech {
+        font-size: 22px;
+    }
+    .badge {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+
+
+}
+
+
+
+
+
