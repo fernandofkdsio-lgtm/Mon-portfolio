@@ -1498,7 +1498,6 @@ li:hover{
 
 /* partie  about */
 .container{
-    padding: 1rem;
     height: 1000px;
 }
 
@@ -1527,7 +1526,7 @@ li:hover{
 }
 
 .container .container-grid p{
-    width: 285px;
+    width: 275px;
     text-align: center;
 }
 /* partie resume */
