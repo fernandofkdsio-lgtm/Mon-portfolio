@@ -1173,15 +1173,20 @@ color:rgb(77, 171, 253);
 }
 
 
-@media screen and (max-width:480px){
 
-/* HEADER */
+
+
+
+
+@media screen and (min-width: 300px) and (max-width: 480px){
+
+
 
 header{
 padding:0 1rem;
 }
 
-/* HERO */
+
 
 .principal .principal-text .name{
 font-size: clamp(22px, 1.94vw, 28px);
@@ -1200,14 +1205,13 @@ margin:0.5rem auto;
 display:block;
 }
 
-/* MENU */
+
 
 .links{
 width:95%;
 padding:10rem 1.5rem;
 }
 
-/* ABOUT */
 
 .container{
 height:auto;
@@ -1231,20 +1235,21 @@ padding:1.5rem;
 
 .container .container-grid p{
     width:95%;
+    max-width: 80%;
     font-size: clamp(12px, 0.97vw, 14px);
     margin:1rem auto;
     text-align:left;
 }
 
 
-/* RESUME */
+
 .Competences{
     font-size: clamp(20px, 1.81vw, 26px);
     padding:3rem 1rem;
     margin:2rem 0;
 }
 
-/* container */
+
 
 .comp-container{
     grid-template-columns:1fr;
@@ -1252,7 +1257,7 @@ padding:1.5rem;
     height:auto;
 }
 
-/* blocs passent en colonne */
+
 
 .bloc-comp{
     grid-column:auto;
@@ -1264,7 +1269,7 @@ padding:1.5rem;
     grid-row:auto;
 }
 
-/* titres */
+
 
 .bloc-comp .Formations{
     font-size: clamp(16px, 1.39vw, 20px);
@@ -1278,7 +1283,7 @@ padding:1.5rem;
     text-align:center;
 }
 
-/* cards */
+
 
 .comp-container .bloc-comp article{
     width:90%;
@@ -1292,7 +1297,7 @@ padding:1.5rem;
     margin:1rem auto;
 }
 
-/* textes */
+
 
 .date,
 .fa-calendar{
@@ -1316,14 +1321,14 @@ padding:1.5rem;
     font-size: clamp(12px, 0.90vw, 13px);
 }
 
-/* partie projet */
+
 
 .h3-project{
     font-size: clamp(24px, 2.43vw, 35px);
     margin:1rem 0;
 }
 
-/* description */
+
 
 .project .desc-projet{
     font-size: clamp(12px, 0.97vw, 14px);
@@ -1331,21 +1336,20 @@ padding:1.5rem;
     margin:1rem auto;
 }
 
-/* section */
+
 
 .project{
     height:auto;
     padding:3rem 1rem;
 }
 
-/* projets passent en colonne */
+
 
 .project .tech-project{
     flex-direction:column;
     align-items:center;
 }
 
-/* carte projet */
 
 .project .project-art{
     width:90%;
@@ -1353,7 +1357,7 @@ padding:1.5rem;
     margin:2rem auto;
 }
 
-/* image */
+
 
 .img-project{
     width:85%;
@@ -1362,14 +1366,14 @@ padding:1.5rem;
     display:block;
 }
 
-/* titre projet */
+
 
 .title{
     font-size: clamp(16px, 1.25vw, 18px);
     margin:1rem 1.5rem;
 }
 
-/* description projet */
+
 
 .project-desc{
     width:auto;
@@ -1377,13 +1381,13 @@ padding:1.5rem;
     font-size: clamp(12px, 0.90vw, 13px);
 }
 
-/* badges */
+
 
 .badges-project{
     margin:1rem 1.5rem;
 }
 
-/* bouton projet */
+
 
 .btn-project{
     width:85%;
@@ -1391,7 +1395,7 @@ padding:1.5rem;
     display:block;
 }
 
-/* bouton voir plus */
+
 
 .btn-project-autre{
     width:85%;
@@ -1400,12 +1404,31 @@ padding:1.5rem;
 }
 
 
+.footer {
+        padding: 0 auto;
+    }
+
+    .footer p {
+        font-size: clamp(12px, 0.97vw, 14px);
+    }
+
+    .footer span {
+        font-size: clamp(10px, 0.83vw, 12px);
+    }
+
+
 }
 
 
 
 /* responsive mobile */
 @media screen and (max-width:768px){
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
     header{
         position: relative;
@@ -1535,7 +1558,7 @@ li:hover{
         display: flex;             
         flex-direction: column;    
         width: 100%;
-        padding: 1rem;
+        padding: 0;
         gap: 2rem;
         height: 1700px;
     }
@@ -1549,35 +1572,39 @@ li:hover{
 
     .bloc-comp .Formations{
        font-size: clamp(18px, 1.53vw, 22px);
-        margin: 0 0 0 1rem;
+        margin: 0 auto;
         text-align: center;
     }
 
     .comp-container .bloc-comp article{
         width: 80%;        
         height: 180px;      
-        margin: 1rem auto;
+        margin: 0 auto;
         gap: 1rem;
+        justify-content: center;
+        align-items: center;
     }
 
     .date,
     .fa-calendar{
-        margin: 2.5rem 0 0 1rem;
-        font-size: clamp(13px, 1.04vw, 15px);
+        text-align: center;
+        margin: 2.1rem 0 0 0;
+        font-size: clamp(11px, 1.04vw, 15px);
     }
 
     .texte-title{
         font-size: clamp(14px, 1.11vw, 16px);
         width: 200px;
-        margin: 1rem 0 0 2rem;
-        text-align: left;
+        margin: 1rem auto 0 auto;
+        text-align: center;
     }
 
     .texte-description{
         width:80%;
         font-size: clamp(12px, 0.97vw, 14px);
-         margin: 1rem 0 0 2rem;
+        margin: 0.5rem 0 0 2rem;
         line-height: 1.4;
+        text-align: center;
     }
 
     .texte-title span{
@@ -1589,25 +1616,32 @@ li:hover{
         grid-column: auto;
         grid-row: auto;
         margin: 0 auto;
+        justify-content: center;
+        align-items: center;
     }
 
     .bloc-comp1 .Experience{
         font-size: clamp(18px, 1.53vw, 22px);
-        margin: 1rem 0 0 1rem;
+        margin: 1rem 0 0 0;
         text-align: center;
+        justify-content: center;
+        align-items: center;
     }
 
     .comp-container .bloc-comp1 .article1{
-        width: 80%;
-        height: 285px;
-        margin: 1rem auto;
+        width: 70%;
+        height: 275px;
+        margin: 0 auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
         gap: 1rem;
         
     }
 
     .Comp-tech{
         width: 100%;
-        height: 1250px;
+        height: auto;
         padding: 2rem;
         flex-wrap: wrap;
     }
