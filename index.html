@@ -1,234 +1,354 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fernando FKD</title>
-    <link rel="icon" type="image/jpg" href="Images/Fernando.jpg">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-          
+    <title>Fernando-Fouakanda</title>
+    <link rel="icon" type="image/jpg" href="Images/FKD.png">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 <body>
-    
-    <!-- header et nav -->
     <header>
-            <nav class="navbar">
-                <div class="logo">
-                 
-                    <a href="#">Fernando.</a>
-                </div>
-                <ul class="links">
-                    <li><a href="#Home">Accueil</a></li>
-                    <li><a href="#About">A propos</a></li>
-                    <li><a href="#Resume">Parcours</a></li>
-                    <li><a href="#Competences">Compétences</a></li>
-                    <li><a href="#Project">Projets</a></li>
-                    <li><a href="#Certifications">Certifications</a></li>
-                    <li><a href="#Service">Services</a></li>
-                    <li><a href="#Contact">Contact</a></li>
+         <div class="hero">
+            <div class="personnal">
+                <img src="Images/FKD.png" alt="Ma photo" class="photo_profil">
+                <p class="logo">Fernando.</p>
+
+            </div>
+                <ul id="nav-links">
+                    <li><a href="#"><i class="fa-solid fa-house special"></i>&nbsp;&nbsp;Accueil</a></li>
+                    <li><a href="#About"><i class="fa-regular fa-user  special"></i>&nbsp;&nbsp;About</a></li>
+                    <li> <a href="#Education"><i class="fa-solid fa-graduation-cap special"></i>&nbsp;&nbsp;Education</a></li>
+                    <li><a href="#Experience"><i class="fa-solid fa-briefcase" ></i>&nbsp;&nbsp;Expériences</a></li>
+                    <li><a href="#Stack"><i class="fa-brands fa-buffer" ></i>&nbsp;&nbsp;Stack</a></li>
+                    <li><a href="#Projets"><i class="fa-solid fa-code special" ></i>&nbsp;&nbsp;Projets</a></li>
+                    <li><a href="#Certification"><i class="fa-solid fa-trophy special" ></i>&nbsp;&nbsp;Certifications</a></li>
+                    
+                    <li><a href="#Contact"><i class="fa-regular fa-paper-plane"></i>&nbsp;&nbsp;Conatct</a></li>
                 </ul>
 
-                <div class="burger">
+                <!-- <button id="themeToggle" class="theme-btn">
+                    <i class="fa-solid fa-palette"></i> Changer le fond
+                </button> -->
+                
+            
+                <div class="burger-menu" id="burger">
                     <span></span>
                     <span></span>
                     <span></span>
                 </div>
-            </nav>
-        </header>
+           
+        </div>
+
+         <div class="container_main">
+            <div class="Recherche" title="Voir mon cv">
+                
+                <p><a href="Certification/StageALTERNANCE_CV.pdf" alt="mon Cv" target="_blank" class="a_recherche"> <i class="fa-regular fa-circle-dot fa-xs" style="color: #3B82F6;"></i> &nbsp;Recherche stage 2 à 3 mois | Alternance 12 mois - septembre 2026 </a> </p>
+
+            </div>
+            <h1>Fernando Fouakanda</h1>
+            <h2 id="auto-typing">.</h2>
+            <p class="description">
+                Vos idées prennent vie, vos projets prennent de l’altitude et vos rêves deviennent interactifs ! 
+            </p>
+
+            
+        </div>
+        <div class="btn">
+                <a href="#Contact" class="projet"> &nbsp; Me contacter&nbsp;&nbsp;<i class="fa-regular fa-paper-plane"></i></a>
+                <a href="https://www.linkedin.com/in/fernando-fouakanda-62392b320" target="_blank" class="download"> <i class="fa-brands fa-linkedin-in fa-lg" style="color: rgb(255, 255, 255);"></i></a>
+                <a href="https://github.com/fernandofkdsio-lgtm" target="_blank" class="download"> <i class="fa-brands fa-github fa-lg" style="color: rgb(255, 255, 255);"></i></a>
+        </div>
+       
+
+    </header>
 
     <main>
-        <!-- page principal avex texte -->
+        <div class="container_main1" id="About">
+            <div class="first_main">
 
-        <section class="principal" id="Home">
-            <div class="principal-text">
-                <div class="name"><h1>Fernando FOUAKANDA</h1></div>
-                <div class="titre"><h3><span id="auto-typing"></span></h3></div>
-                <p class="text1">Je fais de vos idées, projets et rêves une réalisation web concrète.
-                                    Je transforme vos concepts en sites qui déchirent et en applis.
-                                    Vos idées prennent vie, vos projets prennent de l’altitude et vos rêves deviennent interactifs !
-                                    Quand vous pensez impossible, moi je code possible. </p>
-                <div class="btn">
-                    <button class="cv">
-                        <a href="Certification/Stage-Alternance.pdf" target="_blank">Voir mon cv</a>
-                    </button>
-                    <button class="Call"><a href="#Contact"><i class="fa-solid fa-feather fa-xl" style="color: rgb(255, 255, 255);"></i>&nbsp;Conctact</a></button>
+                <div class="profil" >
+                    <p> <i class="fa-regular fa-user  special"></i> &nbsp; A propos de moi </p>
                 </div>
+                <h3>Qui suis-je ?</h3>
+                <p class="p_description">Je suis Fernando FOUAKANDA <span class="dev"> &nbsp;Développeur Web Full-Stack&nbsp;</span> passionné, 
+                    doté d’un talent pour créer des applications innovantes,
+                     centrées sur l’utilisateur et capables de <span class="dev">résoudre des problèmes </span>concrets.</p>
 
-                <div class="social">
-                    <a href="https://github.com/fernandofkdsio-lgtm" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="mailto:nffouakanda@gmail.com" target="_blank"><i class="fa-regular fa-envelope fa-lg" style="color: hsv(0, 0%, 100%);"></i></a>
+                <p class="p_description">Actuellement étudiant en première année de<span class="dev"> BTS SIO option SLAM</span>,
+                   je suis à la recherche d’un<span class="dev">stage de 2 à 3 mois </span>,disponible immédiatement avec un rythme de 3 jours en entreprise 
+                   et 2 jours à l’école, puis à temps plein à partir de juin 2026.</p> 
+
+                 <p class="p_description">Je recherche également une <span class="dev">alternance de 12 mois</span>en développement 
+                    web à partir de septembre 2026, afin de mettre en pratique mes compétences, renforcer mon expertise technique 
+                    et contribuer activement à des projets concrets.</p> 
+
+                <p class="p_description">Curieux et motivé, <span class="dev">j’apprends vite</span> et j’aime relever de nouveaux défis pour rendre les 
+                    projets utiles et fonctionnelles. Alors <br> <span class="dev">Let’s work together.</span> </p>
+
+                <a href="Certification/StageALTERNANCE_CV.pdf" target="_blank" class="download1" download> Télécharger mon cv &nbsp;<i class="fa-solid fa-download special" style="color: rgb(255, 255, 255);"></i></a>
+
+            </div>
+            <div class="second_main">
+                <img src="Images/FKD.png" alt="Ma photo" class="me">
+
+                <div class="boite">
+                    <div class="boite_name"> <i class="fa-regular fa-user  special" style="color: #2563EB;"></i> &nbsp; Nom 
+
+                        <p class="myname">Fernando Fouakanda</p>
                     
-                    <a href="https://www.linkedin.com/in/fernando-fouakanda-62392b320" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://www.instagram.com/fernando.fkd1" target="_blank"><i class="fab fa-instagram" ></i></a>
+                    </div>
+                    <div class="boite_mail" style="display: block;"><i class="fa-regular fa-envelope" style="color: #2563EB;"></i> &nbsp; Email 
+                        <p class="myname"> <a href="mailto:nffouakanda@gmail.com" target="_blank">nffouakanda@gmail...</a></p>
+                    </div>
+                </div>
+
+                 <div class="boite2">
+                    <div class="boite_github"> <i class="fa-brands fa-github" style="color: #2563EB;"></i> &nbsp; Github
+
+                        <p class="myname"> <a href="https://github.com/fernandofkdsio-lgtm" target="_blank">fernandofkdsio-lgtm</a></p>
+                    
+                    </div>
+                    <div class="boite_link"> <i class="fa-brands fa-linkedin" style="color: #2563EB;"></i> &nbsp; Linkedin
+                        <p class="myname"> <a href="https://www.linkedin.com/in/fernando-fouakanda-62392b320" target="_blank">Fernando Fouakanda</a></p>
+                    </div>
                 </div>
             </div>
+        </div>
 
-            
-            
-        </section>
+        <!-- partie Education -->
+        <section class="Parcours" id="Education">
 
-        <!-- Partie About -->
-
-        <section class="container" id="About">
-            <h4>A propos de moi</h4>
-           <div class="container-grid">
-               
-                <div class="card">
-                        <h5>Profil</h5>
-                        <p class="text-about">Étudiant en première année de BTS SIO option SLAM à ITIC Paris, je recherche un stage en développement web afin de mettre en pratique mes compétences. 
-                            Disponible immédiatement avec un rythme de 3 jours en entreprise et 2 jours à l’école, et à temps plein à partir de juin.
-                            <br>
-                            <br>
-                            Développeur web, j’aime transformer des idées en sites et applis qui fonctionnent vraiment. Curieux et motivé, 
-                            j’apprends vite et j’aime relever de nouveaux défis pour rendre les projets utiles et fonctionnelles.</p>
+                <div class="parcours1">
+                    <p> <i class="fa-solid fa-graduation-cap" style="color: #2563EB;"></i> &nbsp; Education </p>
+                     
                 </div>
-                <div class="card1">
-                    <h5>Recherche</h5>
-                    <p><span>Type de contrat :</span> Stage/Alternance - Développeur Full Stack 
-                        <br>
-                        <br>
-                        <span>Disponibilité : </span> Immédiate
-                        <br>
-                        <br>
-                        <span>Mobilité : </span> Île-de-France
+                <h3>Formation & Apprentissage.</h3>
+                <p class="form_description">Un parcours académique orienté vers l'excellence : 
+                    mon parcours académique sert de socle à mes réalisations techniques et à ma rigueur en développement.</p>
 
+            <div class="formation_container">
+                    <div class="container_form1">
+                        <i class="fa-solid fa-graduation-cap fa-xl" style="color: #3B82F6;"></i> 
+                        <p class="name_form">BTS SIO (SLAM)</p>
+                        <p class="ecole">ITIC Paris</p>
+                        <p class="titre">Diplôme d'État – Niveau 5 (RNCP 40792)</p>
+                        <p class="date"> 2025 - Aujourd'hui</p>
+                    </div>
+                    <div class="container_form1">
+                        <i class="fa-solid fa-graduation-cap fa-xl" style="color: #3B82F6;"></i>
+                        <p class="name_form">DTS en Développement Informatique</p>
+                        <p class="ecole">IFIAG Vocational School - Maroc</p>
+                        <p class="titre">Niveau 5 (Bac+2) — Spécialisation conception web.</p>
+                        <p class="date"> 2023 - 2025</p>
                         
-                </div>
-                
+                    </div>
+                    <div class="container_form1">
+                        <i class="fa-solid fa-graduation-cap fa-xl" style="color: #3B82F6;"></i>
+                        <p class="name_form">Formation Bureautique</p>
+                        <p class="ecole">VETC - Congo Brazzaville</p>
+                        <p class="titre">Pack Office(Word, Excel, Powerpoint, Publisher)</p>
+                        <p class="date"> 2022 - 2023</p>
+                    </div>
 
-                
-            
-           </div>
+                    <div class="container_form1">
+                        <i class="fa-solid fa-graduation-cap fa-xl" style="color: #3B82F6;"></i>
+                        <p class="name_form">Baccalauréat</p>
+                        <p class="ecole">Sainte Émilienne d’Etaba - Congo Brazzaville</p>
+                        <p class="titre">Gestion Économique</p>
+                        <p class="date"> 2021 - 2022</p>
+                    </div>
+            </div>
+
+
         </section>
 
-        <!-- partie resumé -->
-             <h3 class="Competences" id="Resume">Parcours</h3>
-             
-         <section class="comp-container">
-            <div class="bloc-comp">
-                <p class="Formations">Formations</p>
-                <article>
-                 <p class="date">
-                    <i class="fa-regular fa-calendar"></i> 2025 - 2027
-                 </p>
-                <p class="texte-title">ITIC PARIS</p>
-                <p class="texte-description">BTS Services Informatiques aux Organisations Option SLAM </p>
+        <!-- partie expérience -->
 
-                </article>
-                <article>
-                         <p class="date">
-                            <i class="fa-regular fa-calendar"></i> 2023 - 2025
-                        </p>
-                        <p class="texte-title">IFIAG Vocational School - Maroc</p>
-                        <p class="texte-description">DTS (Diplôme de technicien spécialisé) en développement Informatique</p>
-                </article>
-                <article>
-                     <p class="date">
-                            <i class="fa-regular fa-calendar"></i> 2022 - 2023
-                        </p>
-                        <p class="texte-title">VETC - Congo Brazzaville</p>
-                        <p class="texte-description">Formation Bureautique : Pack Office(Word, Excel, Powerpoint)</p>
-                </article>
-                <article>
-                     <p class="date">
-                            <i class="fa-regular fa-calendar"></i> 2021 - 2022
-                        </p>
-                        <p class="texte-title">Sainte Émilienne d’Etaba - Congo Brazzaville</p>
-                        <p class="texte-description">Baccalauréat en Gestion Économique</p>
-                </article>
+        <section class="experience-section" id="Experience">
+             <div class="parcours1">
+                    <p> <i class="fa-solid fa-briefcase" style="color: #2563EB;"></i> &nbsp; Expériences </p>
+                     
+                </div>
+    <h3>Expériences professionnelles.</h3>
+    <p class="form_description">Un aperçu de mon parcours : entre expériences de terrain et projets techniques,
+         j'ai développé une grande adaptabilité et un sens aigu des responsabilités.</p>
+
+    <div class="experience-container">
+        <div class="experience-item">
+            <div class="experience-dot"><i class="fa-solid fa-briefcase"></i></div>
+            <div class="experience-card">
+                <div class="card-header1">
+                    <h3>Employé commercial <span class="badge-type" >Décembre 2025 – Janvier 2026</span></h3>
+                    <span class="company">INTERMARCHÉ | Gretz - Armainvilliers, France</span>
+                </div>
+                <p class="p_expérience" >
+                    
+                    J’assurais l’accueil des clients ainsi que l’encaissement 
+                    des achats, en gérant différents moyens de paiement tels que les espèces, la carte bancaire et les tickets.</p>
+
+                <p class="p_expérience" >Je veillais à offrir une expérience client agréable en maintenant une relation de qualité et un service rapide et efficace.</p>
+                <p class="p_expérience" >Je participais également à la bonne tenue du magasin en réalisant 
+                    le facing et le réapprovisionnement des rayons afin de garantir une présentation soignée des produits.</p>
+                
             </div>
-            <div class="bloc-comp1">
-                <p class="Experience">Expérience</p>
-                <article class="article1">
-                    <p class="date">
-                            <i class="fa-regular fa-calendar"></i> Décembre 2025 – Janvier 2026
-                        </p>
-                        <p class="texte-title">Employé commercial - INTERMARCHÉ  <br>
-                        <span>Gretz - Armainvilliers, France</span></p>
-                        <p class="texte-description">Accueil et encaissement des clients, 
-                            gestion des paiements (espèces, carte, tickets),
-                             maintien d’une bonne relation client, 
-                            facing et réapprovisionnement des rayons.</p>
-                </article>
-                <article class="article1">
-                        <p class="date">
-                            <i class="fa-regular fa-calendar"></i> Mars 2025 – Avril 2025
-                        </p>
-                        <p class="texte-title">Stagiaire Développeur Web – MBWAY <br>
-                        <span>Casablanca, Maroc</span></p>
-                        <p class="texte-description">Personnalisation d’un site WordPress avec intégration de pages web en HTML/CSS, 
-                            gestion de contenu et des médias, installation et configuration de plugins, ainsi qu’optimisation SEO et performance.</p>
-                </article>
-                <article></article>
+        </div>
+
+        <div class="experience-item">
+            <div class="experience-dot"><i class="fa-solid fa-code"></i></div>
+            <div class="experience-card">
+                <div class="card-header1">
+                    <h3>Stagiaire Développeur Web - WordPress <span class="badge-type">Mars 2025 – Avril 2025</span></h3>
+                    <span class="company">MBWAY | Casablanca, Maroc</span>
+                </div>
+                <p class="p_expérience" >
+                    
+                   J’ai participé à la personnalisation d’un site WordPress en intégrant des pages web en HTML et CSS, 
+                   tout en veillant à la cohérence du design et à l’expérience utilisateur.</p>
+
+                <p class="p_expérience" >J’ai également assuré la gestion du contenu et des médias, 
+                    en mettant à jour les différentes pages du site de manière structurée et efficace.</p>
+                
+                <p >Par ailleurs, j’ai installé et configuré différents plugins afin d’ajouter des fonctionnalités, 
+                    tout en optimisant le référencement (SEO) et les performances globales du site.</p>
+
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Partie stack -->
+
+<section class="stack-section" id="Stack">
+     <div class="parcours1">
+        <p> <i class="fa-brands fa-buffer" style="color: #2563EB;"></i> &nbsp; Stack </p>   
+    </div>
+    <h2 class="stack-title">Stack Technique</h2>
+    <p class="stack-subtitle">Toujours en apprentissage, voici les technologies que 
+        je maîtrise et celles qui m'accompagnent dans mon parcours de développeur.</p>
+
+    <div class="stack-grid">
+        <div class="stack-card">
+            <div class="card-header">
+                <i class="fa-solid fa-laptop-code"></i>
+                <h3>Frontend</h3>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info"><span>HTML</span><span>80%</span></div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 80%;"></div></div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info"><span>CSS</span><span>75%</span></div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 75%;"></div></div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info"><span>Javascript</span><span>50%</span></div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 50%;"></div></div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info"><span>React</span><span>50%</span></div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 50%;"></div></div>
+            </div>
+        </div>
+
+        <div class="stack-card">
+            <div class="card-header">
+                <i class="fa-solid fa-server"></i>
+                <h3>Backend</h3>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info"><span>Laravel</span><span>50%</span></div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 50%;"></div></div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info"><span>Java</span><span>40%</span></div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 40%;"></div></div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info"><span>PHP</span><span>40%</span></div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 40%;"></div></div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info"><span>Python</span><span>30%</span></div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 30%;"></div></div>
+            </div>
+        </div>
+
+        </div>
+
+
+        <div class="stack-grid" style="margin-top: 2rem;">
+        <div class="stack-card">
+            <div class="card-header">
+                <i class="fa-solid fa-database"></i>
+                <h3>Bases de données & DevOps</h3>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info"><span>Mysql</span><span>60%</span></div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 60%;"></div></div>
+            </div>
+             <div class="skill-item">
+                <div class="skill-info"><span>Git</span><span>65%</span></div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 65%;"></div></div>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-info"><span>Github</span><span>65%</span></div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 65%;"></div></div>
             </div>
            
-         </section>
+        </div>
+        
 
-         <!-- partie compétences  -->
+        <div class="stack-card">
+            <div class="card-header">
+                <i class="fa-solid fa-server"></i>
+                <h3>Autres</h3>
+            </div>
+           
+            <div class="skill-item">
+                <div class="skill-info"><span>Pack Office</span><span>70%</span></div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 70%;"></div></div>
+            </div>
 
-         <section class="Comp-tech">
-                 <h3 class="Competences" id="Competences">Compétences Techniques</h3>
-                 <div class="tech">
-                    <article class="tech-art">
-                        <h3 class="text-tech">&lt;/&gt; Frontend</h3>
-                         <div class="badges">
-                            <span class="badge"><i class="fa-brands fa-html5 fa-xl" style="color: #e34f26;"></i> &nbsp;&nbsp;HTML</span>
-                            <span class="badge"><i class="fa-brands fa-css3 fa-xl" style="color: #1572b6;"></i> &nbsp;&nbsp;Css</span>
-                            <span class="badge"><i class="fa-brands fa-js fa-xl" style="color: #f7df1e;"></i>&nbsp;&nbsp;Javascript</span>
-                            <span class="badge"><i class="fa-brands fa-react fa-xl" style="color: #61dafb;"></i>&nbsp;&nbsp;React Js</span>
-                            <span class="badge"><i class="fa-brands fa-angular fa-xl" style="color: #dd0031;"></i>&nbsp;&nbsp;Angular</span>
-                            
-                           
-                        </div>
-                    </article>
-                    <article class="tech-art1">
-                         <h3 class="text-tech">&lt;/&gt; Backend </h3>
-                         <div class="badges">
-                            <span class="badge"><i class="fa-brands fa-laravel fa-xl" style="color: rgb(218, 33, 33);"></i> &nbsp;&nbsp;Laravel</span>
-                            <span class="badge"><i class="fa-brands fa-java fa-xl" style="color: rgb(218, 33, 33);"></i> &nbsp;&nbsp;Java</span>
-                            <span class="badge"><i class="fa-brands fa-php fa-2xl" style="color: #777bb4;"></i>&nbsp;&nbsp;PHP</span>
-                            <span class="badge"><i class="fa-brands fa-python fa-xl" style="color: #306998;"></i>&nbsp;&nbsp;Python</span>
-                        </div>
-                    </article>
-                 </div>
-                 <div class="tech2">
-                    <article class="tech-devops">
-                         <h3 class="text-tech"><i class="fa-solid fa-circle-check fa-l" style="color: rgb(77, 171, 253);"></i> DevOps</h3>
-                         <div class="badges">
-                            <span class="badge"><i class="fa-brands fa-git-alt fa-xl" style="color: #f05032;"></i> &nbsp;&nbsp;Git</span>
-                            <span class="badge"><i class="fa-brands fa-github fa-xl" style="color: #ffffff;"></i> &nbsp;&nbsp;Github</span>
-                        </div>
-                    </article>
-                    <article class="tech-art2">
-                        <h3 class="text-tech"><i class="fa-solid fa-layer-group fa-lg" style="color: rgb(77, 171, 253);"></i>Outils & Autres</h3>
-                         <div class="badges">
-                            <span class="badge"><i class="devicon-vscode-plain colored vscode-icon"></i> &nbsp;&nbsp;Visual Studio Code</span>
-                            <span class="badge"><i class="devicon-eclipse-plain colored"></i>&nbsp;&nbsp; Eclipse IDE</span>
-                            <span class="badge"><i class="fa-solid fa-database fa-xl" style="color: #4479a1;"></i> &nbsp;&nbsp;Mysql</span>
-                            <span class="badge"><i class="fa-brands fa-wordpress fa-xl" style="color: #21759b;"></i> &nbsp;&nbsp;Wordpress</span>
-                            <span class="badge"><i class="fa-brands fa-figma fa-xl" style="color: #f24e1e;"></i> &nbsp;&nbsp;Figma</span>
-                            <span class="badge"><i class="devicon-photoshop-plain colored"></i> &nbsp;&nbsp;Photoshop</span>
-                           
-                        </div>
-                    </article>
-                 </div>
-         </section>
+            <div class="skill-item">
+                <div class="skill-info"><span>Wordpress</span><span>50%</span></div>
+                <div class="progress-bar"><div class="progress-fill" style="width: 50%;"></div></div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info"><span>Figma</span><span>50%</span></div>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 50%;"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info"><span>Photoshop</span><span>30%</span></div>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 30%;"></div>
+                </div>
+            </div>
+        </div>
+        </div>
+</section>
 
-         <!-- partie projet -->
 
-         <section class="project">
+<!-- partie projet -->
+
+
+ <div class="project" id="Projets">
+     <div class="parcours1">
+        <p> <i class="fa-solid fa-code special" style="color: #2563EB;"></i> &nbsp; Projets </p>   
+    </div>
                 <p class="Title-project" id="Project">Mes projets</p>
-                <p class="description-text">Découvrez une sélection de projets que j'ai développés, allant des applications web aux solutions mobiles.</p>
+                <p class="stack-subtitle" style="font-family: sans-serif;">Découvrez une sélection de projets que j'ai développés, allant des applications web aux solutions mobiles.</p>
                 <div class="tech-project">
                         <article class="project-art">
-                           
                                 <img src="Images/CWL.jpeg" alt="" class="img-project">
                                 
                           
@@ -245,7 +365,7 @@
                             <span class="badge"><i class="fa-brands fa-git-alt fa-xl" style="color: #f05032;"></i> &nbsp;&nbsp;Git</span>
                             <span class="badge"><i class="fa-brands fa-github fa-xl" style="color: #ffffff;"></i> &nbsp;&nbsp;Github</span>
                         </div>
-                        <button class="btn-project"><a href="https://github.com/fernandofkdsio-lgtm/CWL-Coworking" target="_blank"><i class="fa-brands fa-github fa-xl" style="color: #ffffff;"></i>&nbsp;&nbsp;&nbsp;Voir les détails</a></button>
+                        <a href="https://github.com/fernandofkdsio-lgtm/CWL-Coworking" target="_blank" class="btn-project"><i class="fa-brands fa-github fa-xl" style="color: #ffffff;"></i>&nbsp;&nbsp;&nbsp;Voir les détails</a>
                         </article>
 
                         <article class="project-art">
@@ -264,14 +384,14 @@
                             <span class="badge"><i class="fa-brands fa-js fa-xl" style="color: #f7df1e;"></i>&nbsp;&nbsp;Javascript</span>
                             <span class="badge"><i class="fa-brands fa-github fa-xl" style="color: #ffffff;"></i> &nbsp;&nbsp;Github</span>
                         </div>
-                        <button class="btn-project"><a href="https://github.com/fernandofkdsio-lgtm/IMMO-KEYS" target="_blank"><i class="fa-brands fa-github fa-xl" style="color: #ffffff;"></i>&nbsp;&nbsp;&nbsp;Voir les détails</a></button>
+                        <a href="https://github.com/fernandofkdsio-lgtm/IMMO-KEYS" target="_blank" class="btn-project"><i class="fa-brands fa-github fa-xl" style="color: #ffffff;"></i>&nbsp;&nbsp;&nbsp;Voir les détails</a>
                         </article>
 
                         <article class="project-art">
                             
                                 <img src="Images/Banner-portfolio.png" alt="" class="img-project">
                                 
-                            <h2 class="title">Mon portfolio</h2>
+                            <h2 class="title">Premier Portfolio</h2>
                             <p class="project-desc">Mon portfolio présente mes compétences en HTML, 
                                 CSS et JavaScript. Chaque section montre mes projets 
                                 et mon approche du développement, alliant créativité et pratique. 
@@ -283,19 +403,26 @@
                             <span class="badge"><i class="fa-brands fa-js fa-xl" style="color: #f7df1e;"></i>&nbsp;&nbsp;Javascript</span>
                             <span class="badge"><i class="fa-brands fa-github fa-xl" style="color: #ffffff;"></i> &nbsp;&nbsp;Github</span>
                         </div>
-                        <button class="btn-project"><a href="https://github.com/fernandofkdsio-lgtm/Mon-portfolio" target="_blank"><i class="fa-brands fa-github fa-xl" style="color: #ffffff;"></i>&nbsp;&nbsp;&nbsp;Voir les détails</a></button>
+                        <a href="https://github.com/fernandofkdsio-lgtm/Mon-portfolio" target="_blank" class="btn-project"><i class="fa-brands fa-github fa-xl" style="color: #ffffff;"></i>&nbsp;&nbsp;&nbsp;Voir les détails</a>
                         </article>
                 </div>
 
                 <div class="btn-center">
-                        <button class="btn-project-autre"><a href="https://github.com/fernandofkdsio-lgtm" target="_blank"><i class="fa-brands fa-github fa-xl" style="color: #ffffff;"></i> &nbsp;&nbsp;&nbsp;Voir tous mes projets sur Github&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-arrow-right fa-xl" style="color: rgb(255, 255, 255);"></i></a></button>
+                        <a href="https://github.com/fernandofkdsio-lgtm" target="_blank" class="btn-project-autre"><i class="fa-brands fa-github fa-xl" style="color: #ffffff;"></i> &nbsp;&nbsp;&nbsp;Voir tous mes projets sur Github&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-arrow-right fa-xl" style="color: rgb(255, 255, 255);"></i></a>
                 </div>
 
                 
-         </section>
+            </div>
 
-         <section class="Certif">
-                <h3 class="h3-certifications" id="Certifications">Mes Certifications</h3>
+         <!-- partie Certification -->
+          
+
+          <section class="Certif" id="Certification">
+
+            <div class="parcours1">
+                    <p> <i class="fa-solid fa-trophy special" style="color: #2563EB;"></i> &nbsp; Certifications </p>   
+            </div>
+                <h3 class="Title-project" id="Certifications">Mes Certifications</h3>
                 <p class="desc-certif">Certifications professionnelles et réalisations qui démontrent mon engagement envers 
                     l’apprentissage continu. </p>
 
@@ -307,7 +434,7 @@
                         <img src="Images/R.png" alt="Badge Certifications Junior sécurité" class="img-certif">
                         <p class="title-certif">RGPD & CNIL</p>
                         <p class="institut">CNIL</p>
-                        <button class="btn-certif"><a href="Certification/Certifications-CNIL.pdf" target="_blank"><i class="fa-regular fa-eye fa-lg" style="color: rgb(255, 255, 255);"></i>&nbsp;&nbsp;Certification</a></button>
+                        <a href="Certification/Certifications-CNIL.pdf" target="_blank" class="btn-certif"><i class="fa-regular fa-eye fa-lg" style="color: rgb(255, 255, 255);"></i>Certification</a>
                     </article>
                     <article>
                         <div class="badges-project-certif">
@@ -316,7 +443,7 @@
                         <img src="Images/introduction-to-cybersecurity.png" alt="Badge Certifications Junior sécurité" class="img-certif">
                         <p class="title-certif">Introduction to CyberSecurity</p>
                         <p class="institut">Cisco Networking Academy</p>
-                        <button class="btn-certif"><a href="Certification/I2CSUpdate20251125-30-umi3b8.pdf" target="_blank"><i class="fa-regular fa-eye fa-lg" style="color: rgb(255, 255, 255);"></i>&nbsp;&nbsp;Certification</a></button>
+                        <a href="Certification/I2CSUpdate20251125-30-umi3b8.pdf" target="_blank" class="btn-certif"><i class="fa-regular fa-eye fa-lg" style="color: rgb(255, 255, 255);"></i>Certification</a>
                     </article>
                     <article>
                         <div class="badges-project-certif">
@@ -325,7 +452,7 @@
                         <img src="Images/junior-cybersecurity-analyst-career-path.1.png" alt="Badge Certifications Junior sécurité" class="img-certif">
                         <p class="title-certif">Junior CyberSecurity Analyst Pathy</p>
                         <p class="institut">Cisco Networking Academy</p>
-                        <button class="btn-certif"><a href="Certification/JuniorCybersecurityAnalystUpdate20251125-30-obvrri.pdf" target="_blank"><i class="fa-regular fa-eye fa-lg" style="color: rgb(255, 255, 255);"></i>&nbsp;&nbsp;Certification</a></button>
+                        <a href="Certification/JuniorCybersecurityAnalystUpdate20251125-30-obvrri.pdf" target="_blank" class="btn-certif"><i class="fa-regular fa-eye fa-lg" style="color: rgb(255, 255, 255);"></i>Certification</a>
                     </article>
                     <article>
                         <div class="badges-project-certif">
@@ -334,17 +461,22 @@
                         <img src="Images/ethical-hacker.png" alt="Badge Certifications Junior sécurité" class="img-certif">
                         <p class="title-certif">Ethical Hacker</p>
                         <p class="institut">Cisco Networking Academy</p>
-                        <button class="btn-certif"><a href="Certification/EthicalHackerUpdate20251125-31-c7sp43.pdf" target="_blank"><i class="fa-regular fa-eye fa-lg" style="color: rgb(255, 255, 255);"></i>&nbsp;&nbsp;Certification</a></button>
+                        <a href="Certification/EthicalHackerUpdate20251125-31-c7sp43.pdf" target="_blank" class="btn-certif"><i class="fa-regular fa-eye fa-lg" style="color: rgb(255, 255, 255);"></i>Certification</a>
                     </article>
                 </div>
          </section>
 
-         <!-- partie services -->
+
+           <!-- partie services -->
 
          <section class="services" id="Service">
 
-    <h2 >Services</h2>
-    <div class="line"></div>
+             <div class="parcours1">
+                    <p> <i class="fa-solid fa-handshake-angle" style="color: #2563EB;"></i> &nbsp; Services </p>   
+            </div>
+
+    <h3 class="Title-project" > Mes services</h3>
+    
 
     <p class="services-text" >
         Services complets de développement web pour donner vie à vos idées grâce à des technologies modernes.
@@ -354,13 +486,13 @@
 
         <div class="service-card">
             <div class="icon"> <i class="fa-solid fa-code"></i> </div>
-            <h3>Frontend Developpement</h3>
+            <h4>Frontend Developpement</h4>
             <p>Applications web modernes et responsives, développées avec React.</p>
         </div>
 
         <div class="service-card">
             <div class="icon"> <i class="fa-solid fa-server"></i> </div>
-            <h3>Backend Developpement</h3>
+            <h4>Backend Developpement</h4>
             <p>Solutions serveur avec Laravel et développement d’API performant.</p>
         </div>
 
@@ -372,13 +504,13 @@
 
         <div class="service-card">
             <div class="icon"> <i class="fa-solid fa-palette"></i> </div>
-            <h3>UI/UX Design</h3>
+            <h4>UI/UX Design</h4>
             <p>Design pensé pour l’utilisateur, joli et facile à utiliser.</p>
         </div>
 
         <div class="service-card">
             <div class="icon"> <i class="fa-brands fa-wordpress"></i> </div>
-            <h3>WordPress Developpement</h3>
+            <h4>WordPress Developpement</h4>
             <p>Thèmes et plugins WordPress et sites web complets.</p>
         </div>
 
@@ -404,49 +536,13 @@
 
 </section>
 
-         <!-- partie recommendations -->
 
-         <!-- <section class="testimonials">
-
-            <h2><span>Recommendations</span></h2>
-
-        <div class="testimonial-container">
-
-            <div class="testimonial">
-            <img src="Images/Fernando.jpg" alt="responsable-stage">
-
-        <div class="bubble">
-                <p>
-                    “Far far away, behind the word mountains, far from the countries
-                    Vokalia and Consonantia, there live the blind texts.”
-                </p>
-
-                <h4>— Ethan McCown, <span>CEO XYZ Inc.</span></h4>
-        </div>
-
-    </div>
-
-    <div class="testimonial">
-        <img src="Images/Fernando.jpg" alt="Directeur-tech">
-
-        <div class="bubble">
-            <p>
-                “Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts.”
-            </p>
-
-                <h4>— Craig Gowen, <span>CEO XYZ Inc.</span></h4>
-        </div>
-
-    </div>
-    </div>
-</section> -->
 
 <!-- partie contact -->
 
 <section class="contact" id="Contact">
 
-    <p class="title-contact">Contact</p>
+    <p class="Title-project">Contact</p>
 
     <p class="contact-subtitle">
        Discutons de la manière dont nous pouvons travailler ensemble.
@@ -457,7 +553,7 @@
         <!-- Formulaire -->
         <div class="contact-form">
 
-            <h3>Message</h3>
+            <h4>Message</h4>
 
             <form id="contactForm" method="post">
 
@@ -489,7 +585,7 @@
             </div>
 
             <div class="info-box">
-                <h4> <a href="https://github.com/fernandofkdsio-lgtm" target="_blank">GitHub</h4>
+                <h4> <a href="https://github.com/fernandofkdsio-lgtm" target="_blank">GitHub</a></h4>
                 <p><a href="https://github.com/fernandofkdsio-lgtm" target="_blank">github.com/fernandofkdsio-lgtm</a></p>
             </div>
 
@@ -498,19 +594,21 @@
     </div>
 
 </section>
-</main>
 
-    <footer class="footer">
+<a href="#" class="back-to-top" id="backToTop">
+    <i class="fa-solid fa-arrow-up"></i>
+</a>
+
+
+    </main>
+       
+   <footer class="footer">
         <p>© 2026 Fernando Fouakanda - Tous droits réservés</p>
         <span>Développeur Web Full-Stack  • Île-de-France</span>
     </footer>
 
-        <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-        <script src="script.js"></script>
-        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-        
-    
-    
-
+   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 </body>
 </html>
