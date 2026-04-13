@@ -2227,7 +2227,7 @@ font-size: clamp(14px, 1.11vw, 16px);
         font-size: clamp(10px, 0.54vw, 15px);
     }
     .fa-circle-dot{
-        margin-top: 0.4rem;
+        margin-top: 0.34rem;
     }
     
     .btn {
