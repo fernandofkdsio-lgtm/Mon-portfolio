@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', function() {
             if (body.classList.contains('light-theme')) {
                 themeToggle.innerHTML = '<i class="fa-solid fa-moon"></i>';
             } else {
-                themeToggle.innerHTML = '<i class="fa-solid fa-palette"></i> ';
+                themeToggle.innerHTML = '<i class="fa-solid fa-sun" style="color: rgb(255, 255, 255);"></i> ';
             }
         });
     }
