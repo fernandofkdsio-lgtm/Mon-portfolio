@@ -86,9 +86,9 @@ document.addEventListener('DOMContentLoaded', function() {
         themeToggle.addEventListener('click', () => {
             body.classList.toggle('light-theme');
             if (body.classList.contains('light-theme')) {
-                themeToggle.innerHTML = '<i class="fa-solid fa-moon"></i> Mode Sombre';
+                themeToggle.innerHTML = '<i class="fa-solid fa-moon"></i>';
             } else {
-                themeToggle.innerHTML = '<i class="fa-solid fa-palette"></i> Mode Clair';
+                themeToggle.innerHTML = '<i class="fa-solid fa-palette"></i> ';
             }
         });
     }

@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif ;
 }
 body{
     background: radial-gradient(circle at 15% 25%, rgba(0, 80, 254, 0.136) 0%, transparent 45%),
@@ -56,7 +57,7 @@ header{
 /* On s'assure que le texte reste lisible quand le fond devient blanc */
 .hero.scrolled .logo, 
 .hero.scrolled #nav-links li a {
-    color: rgb(213, 213, 213) !important; 
+    color: rgb(164, 164, 164) !important; 
 }
 
 
@@ -128,9 +129,9 @@ a:hover{
 /* Style du bouton */
 .theme-btn {
     padding: 10px 20px;
-    border-radius: 30px;
+    border-radius: 100px;
     border: 1px solid #2563eb;
-    background: white;
+    background: transparent;
     color: #2563eb;
     cursor: pointer;
     font-weight: 600;
@@ -144,15 +145,363 @@ a:hover{
 
 /* LE FOND MAGIQUE (Ton image) */
 body.light-theme {
-    background-color: #e6e6e6; /* Couleur de base claire */
-    /* On crée les halos de couleur avec plusieurs gradients radiaux */
+    background-color: #ffffff !important; /* Couleur de base claire */
+    
     background-image: 
         radial-gradient(at 0% 0%, rgba(186, 215, 255, 0.5) 0px, transparent 50%), 
         radial-gradient(at 100% 0%, rgba(233, 213, 255, 0.5) 0px, transparent 50%), 
         radial-gradient(at 100% 100%, rgba(255, 230, 245, 0.5) 0px, transparent 50%),
         radial-gradient(at 0% 100%, rgba(220, 235, 255, 0.5) 0px, transparent 50%);
-    background-attachment: fixed; /* Pour que le fond ne bouge pas au scroll */
-    color: #0f172a; /* On change le texte en sombre pour qu'il soit lisible */
+    background-attachment: fixed; 
+    color: #00309f; 
+}
+
+body.light-theme .container_main1,
+body.light-theme .container_main
+ {
+    background: transparent !important;
+}
+
+
+body.light-theme .profil{
+    background: none;
+}
+
+body.light-theme .hero.scrolled{
+    background: #ffffff;
+    
+}
+
+body.light-theme .hero.scrolled .logo, 
+.hero.scrolled #nav-links li a {
+    color: #020617;
+}
+
+
+body.light-theme .second_main{
+    background: none;
+}
+
+body.light-theme #nav-links{
+   
+    border: 1px solid rgb(185, 184, 184);
+    background: gainsboro;
+}
+body.light-theme .Recherche{
+    border: 1px solid rgb(185, 184, 184);
+    background: none;
+}
+
+body.light-theme h1,
+body.light-theme h2,
+
+body.light-theme p
+ {
+    color: #1f1f1f;
+}
+
+body.light-theme .projet{
+    color: #eeeeef;
+}
+
+body.light-theme .dev{
+    
+    color:white;
+    background: #2563EB;
+}
+
+body.light-theme a{ 
+    color:#2a2a2b;
+    
+}
+body.light-theme a:hover{ 
+    transition: 0.5s;
+    color:#0f285f;
+}
+
+body.light-theme #auto-typing{
+    color: #00309f;
+}
+body.light-theme .download1{
+    border: none;
+    outline: none;
+    background:#2563EB ;
+    color: white;
+}
+
+body.light-theme .download1:hover{
+    transition: 1s;
+    background:#0f285f ;
+    color: white;
+}
+
+body.light-theme .boite_name{
+    background: none;
+    color: #383b40;
+}
+
+body.light-theme .boite_name:hover{
+    transition: 0.2s;
+    border-left: 5px solid #2563EB ;
+    color: #383b40;
+}
+
+
+body.light-theme .boite_mail{
+    background: none;
+    color: #383b40;
+}
+
+body.light-theme .boite_mail:hover{
+    transition: 0.2s;
+    border-right: 5px solid #2563EB ;
+    color: #383b40;
+}
+body.light-theme .boite_github{
+    background: none;
+    color: #383b40;
+}
+
+body.light-theme .boite_github:hover{
+    transition: 0.2s;
+    border-left: 5px solid #2563EB ;
+    color: #383b40;
+}
+body.light-theme .boite_link{
+    background: none;
+    color: #383b40;
+}
+
+body.light-theme .boite_link:hover{
+    transition: 0.2s;
+    border-right: 5px solid #2563EB ;
+    color: #383b40;
+}
+
+body.light-theme .myname{
+    color: #2563EB;
+}
+body.light-theme h3{
+    color: #2563EB;
+}
+
+body.light-theme .parcours1{
+    
+    background: none;
+}
+/* partie éducation */
+body.light-theme .Parcours{
+    padding: 3rem 0;
+    background: rgb(245, 245, 245);
+}
+
+body.light-theme .container_form1{
+    outline: none;
+    background: white;
+    box-shadow: 1px 1px 1px rgb(245, 245, 245);
+    border-bottom: 10px solid #2563EB;
+}
+
+body.light-theme .name_form{
+    color:  #2563EB;
+}
+body.light-theme .ecole{
+   font-weight: 500;
+}
+body.light-theme .titre{
+    color:  #909091;
+}
+
+body.light-theme .date{
+    color:  #909091;
+}
+
+/* partie expérience */
+body.light-theme .experience-section{
+    background: rgb(245, 245, 245);
+}
+
+body.light-theme .experience-card{
+    background:white;
+    box-shadow: 1px 1px 1px rgb(245, 245, 245);
+}
+body.light-theme .badge-type{
+    font-weight: normal;
+    color:  #909091;
+}
+
+/* partie stack */
+
+body.light-theme .stack-section{
+    background: white;
+}
+body.light-theme .stack-title{
+    color:  #2563EB;
+
+}
+
+body.light-theme .stack-card{
+    background: rgb(245, 245, 245);
+    border: none;
+    box-shadow: 1px 1px 1px white;
+}
+body.light-theme .skill-info{
+    color: rgb(63, 63, 63);
+}
+
+body.light-theme .progress-bar{
+    background-color: rgb(220, 218, 218);
+}
+
+/* partie projet */
+
+body.light-theme .project{
+    background: white;
+}
+body.light-theme .Title-project{
+    color:  #2563EB;
+}
+body.light-theme .project-art{
+    border: none;
+    outline: 1px solid gainsboro;
+}
+
+body.light-theme .title{
+    color:  #2563EB;
+}
+
+body.light-theme .project-desc{
+    font-size: 13px;
+    color: #717171;
+    font-weight: 500;
+}
+body.light-theme .badge{
+    font-size: 13px;
+    color: #717171;
+    font-weight: 500;
+    background: rgb(233, 233, 233);
+}
+
+body.light-theme .btn-project{
+     font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    outline: none;
+    font-weight: 500;
+    background: rgb(233, 233, 233);
+    box-shadow: none;
+}
+body.light-theme .btn-project:hover{
+     font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    outline: none;
+    font-weight: 500;
+    background: rgb(193, 193, 193);
+    box-shadow: none;
+}
+
+body.light-theme .btn-project-autre{
+     font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    outline: none;
+    font-weight: 500;
+    background: rgb(233, 233, 233);
+    box-shadow: none;
+}
+body.light-theme .btn-project-autre:hover{
+     font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    outline: none;
+    font-weight: 500;
+    background: rgb(193, 193, 193);
+    box-shadow: none;
+}
+
+/* partie certification */
+
+body.light-theme .Certif{
+    background: rgb(245, 245, 245);
+}
+body.light-theme .desc-certif{
+   color: black;
+}
+body.light-theme article{
+   box-shadow: 1px 5px 3px rgb(219, 219, 219);
+   background: white;
+   outline: none;
+   
+}
+body.light-theme .badges-project-certif{
+   font-size: 13px;
+   font-weight: 500;
+}
+body.light-theme .institut{
+   font-size: 13px;
+   font-weight: 400;
+   color: rgb(193, 193, 193);
+}
+body.light-theme .title-certif{
+   font-size: 14px;
+   font-weight: 500;
+  
+}
+
+body.light-theme .btn-certif{
+   box-shadow: none;
+}
+
+/* partie services */
+
+body.light-theme .services{
+    background: rgb(245, 245, 245);
+}
+
+body.light-theme .service-card{
+   box-shadow: 1px 5px 3px rgb(219, 219, 219);
+   background: white;
+   outline: none;
+}
+body.light-theme h4{
+   font-size: 16px;
+}
+
+/* partie contact */
+
+body.light-theme .contact{
+    background: white;
+}
+body.light-theme .contact-form{
+    background:gainsboro ;
+    box-shadow: 1px 5px 3px white;
+    outline: none;
+}
+
+body.light-theme h4{
+     color: #1e90ff;
+}
+
+body.light-theme .info-box{
+    background:gainsboro ;
+    box-shadow: 1px 5px 3px white;
+    outline: none;
+}
+
+/* partie footer */
+body.light-theme .footer{
+    background:gainsboro ;
+    box-shadow: 1px 5px 3px white;
+    outline: none;
+}
+body.light-theme span{
+    color: black;
+}
+
+body.light-theme .back-to-top{
+   background:gainsboro ;
+   
+}
+
+body.light-theme .burger-menu span{
+   background: rgb(185, 184, 184); 
 }
 
 
@@ -237,15 +586,15 @@ h2{
 
 
 .projet{
-    display: flex;             /* Active le mode Flexbox */
-    justify-content: center;   /* Centre horizontalement le texte */
-    align-items: center;       /* Centre verticalement le texte */
+    display: flex;             
+    justify-content: center;   
+    align-items: center;       
     
     width: 10rem;
-    height: 2.5rem;              /* Conseil : utilise rem ou px plutôt que vh pour un bouton */
+    height: 2.5rem;             
     border-radius: 10px;
     color: white;
-    text-decoration: none;     /* Enlève le soulignement par défaut du lien */
+    text-decoration: none;     
     
     font-size: 15px;
     font-weight: 500;
@@ -257,8 +606,8 @@ h2{
    
 }
 .download{
-    display: flex;             /* Active le mode Flexbox */
-    justify-content: center;   /* Centre horizontalement le texte */
+    display: flex;             
+    justify-content: center;   
     align-items: center; 
     width: 3rem;
     height: 2.5rem ;
@@ -272,8 +621,8 @@ h2{
     cursor: pointer;
 }
 .download1{
-    display: flex;             /* Active le mode Flexbox */
-    justify-content: center;   /* Centre horizontalement le texte */
+    display: flex;             
+    justify-content: center;   
     align-items: center; 
     width: 12rem;
     height: 2.5rem ;
@@ -319,8 +668,8 @@ h2{
 
 /* Quand le menu est ouvert (classe .active ajoutée par JS) */
 .burger-menu.active span:nth-child(1) {
-    transform: translateY(8px) rotate(45deg); /* La barre du haut descend et tourne */
-    background-color: #2563EB; /* Optionnel : change la couleur en bleu quand c'est ouvert */
+    transform: translateY(8px) rotate(45deg); 
+    background-color: #2563EB; 
 }
 
 .burger-menu.active span:nth-child(2) {
@@ -922,7 +1271,7 @@ text-align: center;
 }
 .project-desc{
     margin: 1rem 0 0 1.8rem ;
-     font-size: clamp(13px, 1.04vw, 15px);
+     font-size: clamp(13px, 1.04vw, 13px);
     width: 330px;
     text-align: justify;
     font-weight: 300;
@@ -930,11 +1279,12 @@ text-align: center;
     color: #c8c8c8;
 }
 .badges-project{
+    font-size: clamp(12px, 1.04vw, 13px);
     display:flex;
     flex-wrap:wrap;
     gap:12px;
     margin: 2rem 0 0 2rem;
-    font-weight: bold;
+    font-weight: 500;
 }
 .btn-project{
     display: flex;
@@ -1074,7 +1424,8 @@ text-align: center;
     color:#cbd5e1;
     padding:9px 17px;
     border-radius:30px;
-    font-size:15px;
+    font-size:13px;
+    font-weight: 500;
 }
 
 .badges-project-certif{
@@ -1086,7 +1437,7 @@ text-align: center;
 }
  .img-certif{
     width: 70px;
-    margin: 2rem 0 0 0;
+    margin: 1.2rem 0 0 0;
     object-fit: cover;
     border-radius: 10px;
 }
@@ -1156,7 +1507,7 @@ text-align: center;
 }
 
 .services h4{
-    font-size: clamp(18px, 2.43vw, 25px);
+    font-size: clamp(14px, 2.43vw, 16px);
     margin-bottom:10px;
     color: rgb(77, 171, 253);
     font-size: 800;
