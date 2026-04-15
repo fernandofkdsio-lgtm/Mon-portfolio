@@ -2326,8 +2326,8 @@ font-size: clamp(14px, 1.11vw, 16px);
     }
 
     .Parcours{
+        display: flex;
         flex-direction: column;
-        justify-items: center;
         align-items: center;
         height: auto;
         min-height: 1500px;
