@@ -11,9 +11,6 @@ body{
     height: 100%;
 }
 
-
-
-
 header{
    height: 100vh;
 }
@@ -128,7 +125,12 @@ a:hover{
 
 /* Style du bouton */
 .theme-btn {
-    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    padding: 17px 17px;
     border-radius: 100px;
     border: 1px solid #2563eb;
     background: transparent;
@@ -136,6 +138,7 @@ a:hover{
     cursor: pointer;
     font-weight: 600;
     transition: all 0.3s ease;
+    margin: 0.3rem 0 0 4rem;
 }
 
 .theme-btn:hover {
@@ -1780,11 +1783,11 @@ html {
         flex-wrap: wrap;
         padding: 5px 10px;
        
-        font-size: clamp(13px, 0.54vw, 15px);
+        font-size: clamp(12px, 0.54vw, 14px);
         
     }
     .a_recherche{
-        font-size: clamp(14px, 0.54vw, 15px);
+        font-size: clamp(13px, 0.54vw, 14px);
     }
     .fa-circle-dot{
         margin-top: 0.5rem;
@@ -1951,9 +1954,11 @@ html {
         text-align: center;
     }
 
+    /* partie parcours */
+
     .Parcours{
+        display: flex;
         flex-direction: column;
-        justify-items: center;
         align-items: center;
         height: auto;
         min-height: 1500px;
@@ -1975,7 +1980,7 @@ html {
         font-size: clamp(13px,0.54vw,14px);
     }
     .container_form1{
-        width: 60%;
+        width: 90%;
         height: auto;
         min-height: 240px;
     }
@@ -1984,11 +1989,26 @@ html {
     font-size: clamp(20px, 1.74vw, 25px);
     
 }
-
 /* partie stack */
+.stack-section{
+    
+}
+
+/* partie expérience  */
+
+.experience-section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* projet */
  
 
 .project{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     height: auto;
     padding: 2rem 1rem;
 }
@@ -2062,7 +2082,12 @@ html {
 }
 
 
+
+
 .Certif {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
         height: auto;
         padding: 3rem 1rem;
     }
