@@ -2453,6 +2453,19 @@ font-size: clamp(14px, 1.11vw, 16px);
         align-items: center;
         flex-direction: column;
     }
+    /* partie certification */
+
+    .Certif{
+        display: flex;
+        align-items: center;
+        flex-direction:column ;
+    }
+
+    .certif-article article {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
      
     
 }
