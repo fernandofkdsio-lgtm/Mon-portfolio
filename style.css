@@ -2419,6 +2419,12 @@ font-size: clamp(14px, 1.11vw, 16px);
         font-size: clamp(11.5px, 1.54vw,14px);
     }
 
+    .stack-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .stack-grid{
     display: flex;         /* Indispensable pour que le reste fonctionne */
     flex-direction: column;
