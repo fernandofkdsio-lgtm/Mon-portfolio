@@ -1764,12 +1764,13 @@ html {
         justify-content: space-between;
         padding: 25px 20px;
     }
+    
     .container_main{
-        margin-top: 11rem;
-        flex-flow: column wrap;
-        justify-content: center;
+        display: flex;
         align-items: center;
-    }
+        flex-direction: column;
+    
+        }
     .Recherche{
         width: 92%; 
         margin-top: 2rem;
