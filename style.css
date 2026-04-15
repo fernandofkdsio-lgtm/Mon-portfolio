@@ -128,9 +128,8 @@ a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 10px;
-    height: 10px;
-    padding: 17px 17px;
+    width: 45px;
+    height: 45px;
     border-radius: 100px;
     border: 1px solid #2563eb;
     background: transparent;
@@ -138,7 +137,7 @@ a:hover{
     cursor: pointer;
     font-weight: 600;
     transition: all 0.3s ease;
-    margin: 0.3rem 0 0 4rem;
+    margin: 0.1rem 0 0 4rem;
 }
 
 .theme-btn:hover {
@@ -2250,7 +2249,7 @@ font-size: clamp(14px, 1.11vw, 16px);
         width: 94%;
         height: auto;
         min-height: 35px;
-        margin-top: 2rem;
+        margin-top: 7rem;
         color: #3B82F6;
        
     }
