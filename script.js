@@ -9,6 +9,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const themeToggle = document.getElementById('themeToggle');
     const body = document.body;
 
+
+
     // --- 2. MENU BURGER ---
     if (burger && navLinks) {
         burger.addEventListener('click', () => {

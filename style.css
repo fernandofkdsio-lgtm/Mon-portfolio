@@ -128,8 +128,9 @@ a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 45px;
-    height: 45px;
+    width: 10px;
+    height: 10px;
+    padding: 17px 17px;
     border-radius: 100px;
     border: 1px solid #2563eb;
     background: transparent;
@@ -137,7 +138,7 @@ a:hover{
     cursor: pointer;
     font-weight: 600;
     transition: all 0.3s ease;
-    margin: 0.1rem 0 0 4rem;
+    margin: 0.3rem 0 0 4rem;
 }
 
 .theme-btn:hover {
@@ -1088,7 +1089,7 @@ h3{
 }
 .p_expérience{
     margin-top: 1rem;
-     width: 95%;
+     width: auto;
      text-align: left;
 }
 
@@ -1135,9 +1136,6 @@ h3{
     max-width: 1100px;
     margin: 0 auto;
 }
-
-
-
 
 .stack-card {
     background: #0f172a;
@@ -1771,19 +1769,18 @@ html {
         display: flex;
         align-items: center;
         flex-direction: column;
+        justify-content: center;
     
         }
     .Recherche{
         width: 92%; 
-        margin-top: 2rem;
+        margin-top: 6rem;
         justify-content: center;
         align-items: center;
         text-align: center;
         flex-wrap: wrap;
         padding: 5px 10px;
-       
         font-size: clamp(12px, 0.54vw, 14px);
-        
     }
     .a_recherche{
         font-size: clamp(13px, 0.54vw, 14px);
@@ -2237,19 +2234,19 @@ font-size: clamp(14px, 1.11vw, 16px);
         display: flex;
         align-items: center;
         flex-direction: column;
+        justify-content: center;
     }
       .Recherche{
-       
         justify-content: center;
         align-items: center;
         text-align: center;
         flex-wrap: wrap;
         padding: 5px 10px;
         font-size: clamp(10px, 0.54vw, 14px);
-        width: 94%;
+        width: 90%;
         height: auto;
         min-height: 35px;
-        margin-top: 7rem;
+        margin-top: 6rem;
         color: #3B82F6;
        
     }
@@ -2268,6 +2265,7 @@ font-size: clamp(14px, 1.11vw, 16px);
         margin-top: 1rem;
     }
      .container_main1{
+        display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
@@ -2374,7 +2372,7 @@ font-size: clamp(14px, 1.11vw, 16px);
         font-size: clamp(13px,0.54vw,14px);
     }
     .container_form1{
-        width: 60%;
+        width: 90%;
         height: auto;
         min-height: 240px;
     }
@@ -2426,9 +2424,7 @@ font-size: clamp(14px, 1.11vw, 16px);
         height: auto;
     }
 
-    .container_form1{
-        width: 90%;
-    }
+   
 
     .card-header1 h3{
         text-align: left;
@@ -2516,8 +2512,11 @@ font-size: clamp(14px, 1.11vw, 16px);
         justify-content: center;
         align-items: center;
     }
+    .theme-btn{
+        margin-left: 40rem;
+    }
     .Recherche{
-        width: 70%; 
+        width: 60%; 
         margin-top: 2rem;
         justify-content: center;
         align-items: center;
