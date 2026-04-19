@@ -1286,13 +1286,38 @@ text-align: center;
     margin: 2rem 0 0 2rem;
     font-weight: 500;
 }
+.combi{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
 .btn-project{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 350px;
+    width: 170px;
     height: 52px;
     margin: 1.5rem 0 0 1.8rem ;
+    border-radius: 5px;
+    border: none;
+    outline: 1px solid rgb(77, 171, 253);
+    background: none;
+    cursor: pointer;
+    box-shadow:0 0 15px #000e37,
+           0 0 15px #8899cc;
+    transition: 0.3s;
+    font-weight: bold;
+    font-size: clamp(12px, 0.97vw, 14px);
+    color: white;
+}
+
+.demo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 52px;
+    margin: 1.5rem 0 0 0 ;
     border-radius: 5px;
     border: none;
     outline: 1px solid rgb(77, 171, 253);
@@ -1346,6 +1371,12 @@ text-align: center;
     color: white;
 }
 .btn-project:hover{
+    background: rgb(77, 171, 253);
+    border: none;
+    outline: none;
+    transition: 0.5s;
+}
+.demo:hover{
     background: rgb(77, 171, 253);
     border: none;
     outline: none;
@@ -2052,13 +2083,28 @@ html {
     margin: 1rem 1.5rem;
 }
 
+
+
 /* bouton */
+.combi{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 .btn-project{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 85%;
+    width: 45%;
     margin: 1.5rem auto 2rem auto;
+   
+}
+.demo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    margin: 1.5rem auto 2rem 0;
    
 }
 .project .btn-center{
