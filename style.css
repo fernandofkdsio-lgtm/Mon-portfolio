@@ -401,6 +401,22 @@ body.light-theme .btn-project:hover{
     background: rgb(193, 193, 193);
     box-shadow: none;
 }
+body.light-theme .demo{
+     font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    outline: none;
+    font-weight: 500;
+    background: rgb(233, 233, 233);
+    box-shadow: none;
+}
+body.light-theme .demo:hover{
+     font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    outline: none;
+    font-weight: 500;
+    background: rgb(193, 193, 193);
+    box-shadow: none;
+}
 
 body.light-theme .btn-project-autre{
      font-family: "Poppins", sans-serif;
