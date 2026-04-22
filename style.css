@@ -2079,6 +2079,7 @@ html {
     margin: 1.8rem auto;
     display: block;
     justify-items: center;
+    object-fit: cover;
 }
 
 /* titre */
@@ -2859,6 +2860,7 @@ font-size: clamp(14px, 1.11vw, 16px);
 
 /* image */
 .img-project{
+    object-fit: cover;
     width: 88%;
     height: 220px;
     margin: 1.8rem auto;
