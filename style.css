@@ -539,7 +539,7 @@ body.light-theme h1, body.light-theme .section-title {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 35%;
+    width: 40%;
     height: 5.4vh;
     border-radius: 30px;
     background: #0F172A;
@@ -1820,7 +1820,7 @@ html {
     
         }
     .Recherche{
-        width: 92%; 
+        width: 96%; 
         margin-top: 6rem;
         justify-content: center;
         align-items: center;
@@ -1830,7 +1830,7 @@ html {
         font-size: clamp(12px, 0.54vw, 14px);
     }
     .a_recherche{
-        font-size: clamp(13px, 0.54vw, 14px);
+        font-size: clamp(12px, 0.54vw, 14px);
     }
     .fa-circle-dot{
         margin-top: 0.5rem;
@@ -2305,7 +2305,7 @@ font-size: clamp(14px, 1.11vw, 16px);
         flex-wrap: wrap;
         padding: 5px 10px;
         font-size: clamp(10px, 0.54vw, 14px);
-        width: 90%;
+        width: 96%;
         height: auto;
         min-height: 35px;
         margin-top: 6rem;
@@ -2313,7 +2313,7 @@ font-size: clamp(14px, 1.11vw, 16px);
        
     }
     .a_recherche{
-        font-size: clamp(10px, 0.54vw, 15px);
+        font-size: clamp(10px, 0.54vw, 12px);
     }
     .fa-circle-dot{
         margin-top: 0.34rem;
