@@ -8,6 +8,67 @@ document.addEventListener('DOMContentLoaded', function() {
     const backToTop = document.getElementById("backToTop");
     const themeToggle = document.getElementById('themeToggle');
     const body = document.body;
+    const académique=document.querySelector(".section_academique")
+    const formation_container = document.querySelector(".formation_container")
+
+    const experience= document.querySelector("#Experience")
+    const section_experience = document.querySelector(".section_experience")
+    const cv= document.querySelector("#cv")
+    const section_cv = document.querySelector(".section_cv")
+
+let open = false;
+let find = false;
+let look=false;
+
+function parcoursAcedemique() {
+    if (!open) {
+        académique.style.display = "flex";
+        section_experience.style.display = "none";
+        section_cv.style.display = "none";
+
+        open = true;
+        find = false; 
+        look=false
+    } else {
+        académique.style.display = "none";
+        open = false;
+    }
+}
+
+function parcoursExperience() {
+    if (!find) {
+        section_experience.style.display = "flex";
+        académique.style.display = "none";
+        section_cv.style.display = "none";
+
+        find = true;
+        open = false; 
+        look=false
+    } else {
+        section_experience.style.display = "none";
+        find = false;
+    }
+}
+
+function parcoursCv() {
+    if (!look) {
+        section_cv.style.display = "flex";
+        académique.style.display = "none";
+        section_experience.style.display = "none";
+
+        look = true;
+        open = false; 
+        find=false
+    } else {
+        section_cv.style.display = "none";
+        look = false;
+    }
+}
+
+
+    formation_container.addEventListener("click", ()=> parcoursAcedemique())
+    experience.addEventListener("click", ()=> parcoursExperience() )
+    cv.addEventListener("click",()=> parcoursCv())
 
 
 
